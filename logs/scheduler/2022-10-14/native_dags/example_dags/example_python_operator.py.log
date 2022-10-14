@@ -642,3 +642,139 @@
 [2022-10-14T16:26:46.500+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.500+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:26:46.512+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.512+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2022-10-14T16:26:46.531+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2022-10-14T16:27:22.556+0800] {processor.py:156} INFO - Started process (PID=226987) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:27:22.557+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:27:22.557+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:22.557+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:27:22.570+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:22.570+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:27:22.575+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:27:22.591+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:22.591+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:27:22.603+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:22.603+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:27:22.708+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.154 seconds
+[2022-10-14T16:28:00.932+0800] {processor.py:156} INFO - Started process (PID=227214) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:00.933+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:28:00.933+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:00.933+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:00.946+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:00.946+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:28:00.951+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:00.967+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:00.967+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:28:01.058+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:01.058+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:28:01.076+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.146 seconds
+[2022-10-14T16:28:41.298+0800] {processor.py:156} INFO - Started process (PID=227347) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:41.299+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:28:41.299+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:41.299+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:41.314+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:41.314+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:28:41.318+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:28:41.335+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:41.335+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:28:41.429+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:41.429+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:28:41.449+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.154 seconds
+[2022-10-14T16:29:23.001+0800] {processor.py:156} INFO - Started process (PID=227421) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:29:23.002+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:29:23.003+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:23.003+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:29:23.022+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:23.022+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:29:23.028+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:29:23.053+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:23.053+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:29:23.180+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:23.180+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:29:23.205+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.208 seconds
+[2022-10-14T16:30:04.619+0800] {processor.py:156} INFO - Started process (PID=227581) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:04.620+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:30:04.621+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:04.621+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:04.634+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:04.634+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:30:04.639+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:04.736+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:04.736+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:30:04.749+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:04.749+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:30:04.770+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.153 seconds
+[2022-10-14T16:30:44.465+0800] {processor.py:156} INFO - Started process (PID=227659) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:44.466+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:30:44.466+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:44.466+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:44.480+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:44.480+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:30:44.484+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:30:44.577+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:44.577+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:30:44.588+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:44.588+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:30:44.606+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.142 seconds
+[2022-10-14T16:31:21.855+0800] {processor.py:156} INFO - Started process (PID=227750) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:31:21.856+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:31:21.856+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:21.856+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:31:21.874+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:21.874+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:31:21.882+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:31:21.904+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:21.904+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:31:21.922+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:21.922+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:31:21.944+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.092 seconds
+[2022-10-14T16:32:00.017+0800] {processor.py:156} INFO - Started process (PID=227818) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:00.018+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:32:00.019+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:00.019+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:00.035+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:00.035+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:32:00.040+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:00.059+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:00.059+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:32:00.084+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:00.084+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:32:00.130+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.115 seconds
+[2022-10-14T16:32:39.044+0800] {processor.py:156} INFO - Started process (PID=227902) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:39.045+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:32:39.045+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:39.045+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:39.060+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:39.059+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:32:39.064+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:32:39.081+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:39.081+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:32:39.175+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:39.175+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:32:39.198+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2022-10-14T16:33:16.999+0800] {processor.py:156} INFO - Started process (PID=228007) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:33:16.999+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:33:17.000+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:17.000+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:33:17.017+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:17.017+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:33:17.022+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:33:17.046+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:17.046+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:33:17.170+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:17.170+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:33:17.190+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.194 seconds
+[2022-10-14T16:34:00.407+0800] {processor.py:156} INFO - Started process (PID=228091) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:00.409+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:34:00.409+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:00.409+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:00.426+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:00.426+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:34:00.431+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:00.455+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:00.455+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:34:00.584+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:00.584+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:34:00.605+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.200 seconds
+[2022-10-14T16:34:39.472+0800] {processor.py:156} INFO - Started process (PID=228185) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:39.472+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:34:39.473+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:39.473+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:39.487+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:39.487+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:34:39.492+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:34:39.592+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:39.592+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:34:39.604+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:39.604+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:34:39.623+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.154 seconds
+[2022-10-14T16:35:22.900+0800] {processor.py:156} INFO - Started process (PID=228351) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:35:22.901+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:35:22.901+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:22.901+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:35:22.920+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:22.920+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:35:22.927+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:35:23.059+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:23.059+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:35:23.075+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:23.074+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:35:23.100+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.204 seconds
+[2022-10-14T16:36:02.774+0800] {processor.py:156} INFO - Started process (PID=228448) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:02.775+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:36:02.776+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:02.776+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:02.796+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:02.795+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:36:02.803+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:02.830+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:02.830+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:36:02.846+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:02.846+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:36:02.869+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.098 seconds
+[2022-10-14T16:36:40.313+0800] {processor.py:156} INFO - Started process (PID=228552) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:40.313+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:36:40.314+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:40.314+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:40.328+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:40.328+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:36:40.332+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:36:40.348+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:40.348+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:36:40.361+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:40.360+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:36:40.380+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.070 seconds
+[2022-10-14T16:37:21.955+0800] {processor.py:156} INFO - Started process (PID=228660) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:37:21.956+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:37:21.957+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:21.957+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:37:21.972+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:21.972+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:37:21.977+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:37:21.995+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:21.995+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:37:22.010+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:22.010+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:37:22.114+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.163 seconds
+[2022-10-14T16:38:01.065+0800] {processor.py:156} INFO - Started process (PID=228797) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:38:01.066+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:38:01.066+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:01.066+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:38:01.084+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:01.084+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:38:01.090+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:38:01.112+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:01.112+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:38:01.251+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:01.250+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:38:01.272+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.210 seconds

@@ -597,3 +597,115 @@
 [2022-10-14T16:26:58.435+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:58.435+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:26:58.447+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:58.447+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2022-10-14T16:26:58.468+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2022-10-14T16:27:36.150+0800] {processor.py:156} INFO - Started process (PID=227070) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:27:36.151+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:27:36.151+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:36.151+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:27:36.168+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:27:36.184+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:36.184+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:27:36.198+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:36.198+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:27:36.294+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.147 seconds
+[2022-10-14T16:28:16.406+0800] {processor.py:156} INFO - Started process (PID=227259) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:16.407+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:28:16.407+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:16.407+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:16.424+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:16.444+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:16.444+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:28:16.546+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:16.546+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:28:16.564+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.160 seconds
+[2022-10-14T16:28:56.630+0800] {processor.py:156} INFO - Started process (PID=227364) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:56.631+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:28:56.631+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:56.631+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:56.648+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:28:56.665+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:56.665+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:28:56.754+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:56.754+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:28:56.771+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.143 seconds
+[2022-10-14T16:29:38.351+0800] {processor.py:156} INFO - Started process (PID=227487) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:29:38.352+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:29:38.353+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:38.353+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:29:38.374+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:29:38.508+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:38.508+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:29:38.524+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:38.524+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:29:38.545+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.198 seconds
+[2022-10-14T16:30:19.866+0800] {processor.py:156} INFO - Started process (PID=227618) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:19.866+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:30:19.867+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:19.867+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:19.885+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:20.008+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:20.007+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:30:20.022+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:20.022+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:30:20.044+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.180 seconds
+[2022-10-14T16:30:59.172+0800] {processor.py:156} INFO - Started process (PID=227673) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:59.173+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:30:59.173+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:59.173+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:59.193+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:30:59.213+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:59.213+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:30:59.227+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:59.227+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:30:59.248+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.079 seconds
+[2022-10-14T16:31:35.852+0800] {processor.py:156} INFO - Started process (PID=227777) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:31:35.853+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:31:35.854+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:35.853+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:31:35.876+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:31:35.900+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:35.900+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:31:35.917+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:35.916+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:31:35.938+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.089 seconds
+[2022-10-14T16:32:13.959+0800] {processor.py:156} INFO - Started process (PID=227860) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:13.960+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:32:13.961+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:13.961+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:13.979+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:13.997+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:13.997+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:32:14.011+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:14.010+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:32:14.104+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.146 seconds
+[2022-10-14T16:32:53.142+0800] {processor.py:156} INFO - Started process (PID=227919) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:53.143+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:32:53.144+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:53.144+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:53.161+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:32:53.177+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:53.177+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:32:53.267+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:53.267+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:32:53.285+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.144 seconds
+[2022-10-14T16:33:32.867+0800] {processor.py:156} INFO - Started process (PID=228045) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:33:32.868+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:33:32.869+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:32.869+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:33:32.892+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:33:32.915+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:32.915+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:33:33.073+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:33.072+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:33:33.106+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.241 seconds
+[2022-10-14T16:34:14.784+0800] {processor.py:156} INFO - Started process (PID=228114) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:14.785+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:34:14.786+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:14.786+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:14.804+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:14.901+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:14.901+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:34:14.912+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:14.912+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:34:14.930+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.147 seconds
+[2022-10-14T16:34:56.156+0800] {processor.py:156} INFO - Started process (PID=228231) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:56.157+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:34:56.158+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:56.158+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:56.180+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:34:56.293+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:56.292+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:34:56.305+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:56.305+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:34:56.328+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.175 seconds
+[2022-10-14T16:35:38.417+0800] {processor.py:156} INFO - Started process (PID=228384) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:35:38.418+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:35:38.419+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:38.419+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:35:38.443+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:35:38.570+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:38.570+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:35:38.587+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:38.587+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:35:38.612+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.198 seconds
+[2022-10-14T16:36:15.953+0800] {processor.py:156} INFO - Started process (PID=228477) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:15.954+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:36:15.954+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:15.954+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:15.973+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:15.992+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:15.991+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:36:16.005+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:16.005+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:36:16.026+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.075 seconds
+[2022-10-14T16:36:53.588+0800] {processor.py:156} INFO - Started process (PID=228584) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:53.589+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:36:53.589+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:53.589+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:53.607+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:36:53.625+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:53.625+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:36:53.640+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:53.640+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:36:53.751+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.166 seconds
+[2022-10-14T16:37:35.966+0800] {processor.py:156} INFO - Started process (PID=228727) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:37:35.967+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-10-14T16:37:35.967+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:35.967+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:37:35.987+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-10-14T16:37:36.006+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:36.005+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:37:36.105+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:36.105+0800] {dag.py:3324} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-10-14T16:37:36.126+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.162 seconds

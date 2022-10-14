@@ -29,6 +29,7 @@ from datetime import datetime, timedelta
 from airflow.utils.dates import days_ago
 from textwrap import dedent
 import yfinance as yf
+from airflow.models import Variable
 
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG
@@ -54,13 +55,17 @@ default_args={
 
 os.environ["no_proxy"]="*"
 
+
 def download_price():
-    ticker = "MSFT"
-    msft = yf.Ticker(ticker)
-    hist = msft.history(period="max")
-    print(type(hist))
-    print(hist.shape)
-    print(hist)
+    stock_list = Variable.get("stock_list_json", deserialize_json=True)
+
+    for ticker in stock_list:
+        msft = yf.Ticker(ticker)
+        hist = msft.history(period="max")
+
+        with open(f'/home/aurora/airflow/logs/{ticker}.csv', 'w') as writer:
+            hist.to_csv(writer, index=True)
+        print("Finished downloading price data for "+ticker)
    
 # [START instantiate_dag]
 with DAG(

@@ -562,3 +562,115 @@
 [2022-10-14T16:27:10.966+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:10.966+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:27:10.983+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:10.983+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
 [2022-10-14T16:27:11.021+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.113 seconds
+[2022-10-14T16:27:48.038+0800] {processor.py:156} INFO - Started process (PID=227165) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:27:48.039+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:27:48.039+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:48.039+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:27:48.054+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:27:48.075+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:48.075+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:27:48.089+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:48.089+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:27:48.183+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.147 seconds
+[2022-10-14T16:28:28.861+0800] {processor.py:156} INFO - Started process (PID=227333) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:28:28.862+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:28:28.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:28.862+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:28:28.877+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:28:28.900+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:28.900+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:28:28.992+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:28:28.992+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:28:29.010+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.151 seconds
+[2022-10-14T16:29:09.405+0800] {processor.py:156} INFO - Started process (PID=227401) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:09.405+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:29:09.406+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:09.406+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:09.426+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:09.455+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:09.455+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:29:09.584+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:09.584+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:29:09.607+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.205 seconds
+[2022-10-14T16:29:50.960+0800] {processor.py:156} INFO - Started process (PID=227540) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:50.961+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:29:50.962+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:50.961+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:50.981+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:29:51.108+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:51.107+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:29:51.125+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:29:51.125+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:29:51.147+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.189 seconds
+[2022-10-14T16:30:31.764+0800] {processor.py:156} INFO - Started process (PID=227642) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:30:31.765+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:30:31.765+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:31.765+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:30:31.781+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:30:31.888+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:31.888+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:30:31.902+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:30:31.902+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:30:31.925+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.163 seconds
+[2022-10-14T16:31:10.714+0800] {processor.py:156} INFO - Started process (PID=227728) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:10.715+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:31:10.716+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:10.716+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:10.737+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:10.765+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:10.765+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:31:10.788+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:10.788+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:31:10.813+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.102 seconds
+[2022-10-14T16:31:48.589+0800] {processor.py:156} INFO - Started process (PID=227801) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:48.590+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:31:48.591+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:48.590+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:48.606+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:31:48.626+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:48.626+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:31:48.640+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:31:48.639+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:31:48.659+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.072 seconds
+[2022-10-14T16:32:24.900+0800] {processor.py:156} INFO - Started process (PID=227878) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:32:24.901+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:32:24.902+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:24.902+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:32:24.922+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:32:24.949+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:24.949+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:32:24.968+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:32:24.968+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:32:25.100+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.203 seconds
+[2022-10-14T16:33:04.941+0800] {processor.py:156} INFO - Started process (PID=227950) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:04.942+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:33:04.943+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:04.943+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:04.957+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:04.979+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:04.979+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:33:05.079+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:05.079+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:33:05.097+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.158 seconds
+[2022-10-14T16:33:47.064+0800] {processor.py:156} INFO - Started process (PID=228073) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:47.065+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:33:47.066+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:47.066+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:47.084+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:33:47.109+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:47.108+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:33:47.227+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:33:47.227+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:33:47.248+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.186 seconds
+[2022-10-14T16:34:26.422+0800] {processor.py:156} INFO - Started process (PID=228134) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:34:26.423+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:34:26.424+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:26.423+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:34:26.442+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:34:26.554+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:26.554+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:34:26.567+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:34:26.567+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:34:26.589+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.169 seconds
+[2022-10-14T16:35:08.808+0800] {processor.py:156} INFO - Started process (PID=228266) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:08.809+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:35:08.810+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:08.810+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:08.830+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:08.951+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:08.951+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:35:08.972+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:08.972+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:35:09.001+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.196 seconds
+[2022-10-14T16:35:51.317+0800] {processor.py:156} INFO - Started process (PID=228417) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:51.317+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:35:51.318+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:51.318+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:51.335+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:35:51.362+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:51.362+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:35:51.379+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:35:51.379+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:35:51.401+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.087 seconds
+[2022-10-14T16:36:28.580+0800] {processor.py:156} INFO - Started process (PID=228520) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:36:28.581+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:36:28.581+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:28.581+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:36:28.597+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:36:28.618+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:28.618+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:36:28.634+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:36:28.633+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:36:28.653+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.075 seconds
+[2022-10-14T16:37:08.834+0800] {processor.py:156} INFO - Started process (PID=228627) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:08.835+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:37:08.836+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:08.836+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:08.854+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:08.877+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:08.877+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:37:08.893+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:08.893+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:37:09.011+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.179 seconds
+[2022-10-14T16:37:48.783+0800] {processor.py:156} INFO - Started process (PID=228756) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:48.783+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-10-14T16:37:48.784+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:48.784+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:48.800+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-10-14T16:37:48.825+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:48.825+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:37:48.930+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:48.930+0800] {dag.py:3324} INFO - Setting next_dagrun for example_bash_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:37:48.947+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.167 seconds

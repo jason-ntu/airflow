@@ -1,0 +1,557 @@
+[2022-10-14T15:25:10.452+0800] {processor.py:156} INFO - Started process (PID=214665) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:10.453+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:25:10.453+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:10.453+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:10.466+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:10.829+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:10.828+0800] {manager.py:507} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2022-10-14T15:25:10.964+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:10.964+0800] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2022-10-14T15:25:11.098+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:11.098+0800] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2022-10-14T15:25:11.098+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:11.098+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:25:11.106+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:11.106+0800] {dag.py:2594} INFO - Creating ORM DAG for example_branch_operator
+[2022-10-14T15:25:11.112+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:11.112+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:25:11.273+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.823 seconds
+[2022-10-14T15:25:49.797+0800] {processor.py:156} INFO - Started process (PID=214744) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:49.798+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:25:49.798+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:49.798+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:49.813+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:25:49.835+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:49.835+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:25:49.851+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:25:49.851+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:25:49.871+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2022-10-14T15:26:55.433+0800] {processor.py:156} INFO - Started process (PID=214940) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:26:55.433+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:26:55.434+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:26:55.434+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:26:55.447+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:26:55.455+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:26:55.455+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:26:55.470+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:26:55.470+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:26:55.489+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.058 seconds
+[2022-10-14T15:27:32.248+0800] {processor.py:156} INFO - Started process (PID=215198) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:27:32.249+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:27:32.249+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:27:32.249+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:27:32.264+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:27:32.292+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:27:32.292+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:27:32.310+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:27:32.310+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:27:32.331+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.085 seconds
+[2022-10-14T15:28:07.683+0800] {processor.py:156} INFO - Started process (PID=215315) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:07.684+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:28:07.685+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:07.685+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:07.698+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:07.717+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:07.717+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:28:07.732+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:07.732+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:28:07.754+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.073 seconds
+[2022-10-14T15:28:44.092+0800] {processor.py:156} INFO - Started process (PID=215726) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:44.093+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:28:44.093+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:44.093+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:44.107+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:28:44.127+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:44.127+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:28:44.148+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:28:44.148+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:28:44.167+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.078 seconds
+[2022-10-14T15:29:17.729+0800] {processor.py:156} INFO - Started process (PID=216098) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:17.730+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:29:17.730+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:17.730+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:17.749+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:17.773+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:17.773+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:29:17.790+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:17.790+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:29:17.817+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2022-10-14T15:29:53.799+0800] {processor.py:156} INFO - Started process (PID=216396) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:53.800+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:29:53.801+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:53.801+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:53.817+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:29:53.844+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:53.844+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:29:53.859+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:29:53.859+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:29:53.879+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2022-10-14T15:30:29.799+0800] {processor.py:156} INFO - Started process (PID=216463) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:30:29.800+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:30:29.801+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:30:29.801+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:30:29.817+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:30:29.839+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:30:29.839+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:30:29.859+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:30:29.859+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:30:29.880+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.082 seconds
+[2022-10-14T15:31:05.921+0800] {processor.py:156} INFO - Started process (PID=216575) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:05.922+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:31:05.922+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:05.922+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:05.943+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:05.972+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:05.972+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:31:05.993+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:05.993+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:31:06.018+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.100 seconds
+[2022-10-14T15:31:43.685+0800] {processor.py:156} INFO - Started process (PID=216700) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:43.686+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:31:43.686+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:43.686+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:43.699+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:31:43.718+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:43.717+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:31:43.732+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:31:43.732+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:31:43.750+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2022-10-14T15:32:19.003+0800] {processor.py:156} INFO - Started process (PID=216776) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:19.004+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:32:19.005+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:19.004+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:19.019+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:19.039+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:19.039+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:32:19.055+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:19.055+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:32:19.075+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2022-10-14T15:32:55.036+0800] {processor.py:156} INFO - Started process (PID=216831) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:55.038+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:32:55.039+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:55.039+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:55.056+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:32:55.078+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:55.077+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:32:55.094+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:32:55.094+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:32:55.114+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2022-10-14T15:33:31.478+0800] {processor.py:156} INFO - Started process (PID=216896) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:33:31.479+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:33:31.480+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:33:31.480+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:33:31.493+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:33:31.511+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:33:31.511+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:33:31.527+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:33:31.526+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:33:31.548+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T15:34:06.601+0800] {processor.py:156} INFO - Started process (PID=217083) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:06.602+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:34:06.602+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:06.602+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:06.617+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:06.637+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:06.636+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:34:06.652+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:06.652+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:34:06.672+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2022-10-14T15:34:42.425+0800] {processor.py:156} INFO - Started process (PID=217182) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:42.425+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:34:42.426+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:42.426+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:42.439+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:34:42.457+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:42.457+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:34:42.472+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:34:42.472+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:34:42.491+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2022-10-14T15:35:15.961+0800] {processor.py:156} INFO - Started process (PID=217287) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:15.962+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:35:15.962+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:15.962+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:15.977+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:15.997+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:15.997+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:35:16.020+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:16.020+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:35:16.041+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2022-10-14T15:35:51.068+0800] {processor.py:156} INFO - Started process (PID=217391) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:51.069+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:35:51.070+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:51.070+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:51.090+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:35:51.121+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:51.121+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:35:51.151+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:35:51.151+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:35:51.174+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.110 seconds
+[2022-10-14T15:36:26.914+0800] {processor.py:156} INFO - Started process (PID=217435) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:36:26.915+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:36:26.915+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:36:26.915+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:36:26.927+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:36:26.944+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:36:26.944+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:36:26.958+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:36:26.958+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:36:26.977+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T15:37:03.092+0800] {processor.py:156} INFO - Started process (PID=217505) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:03.093+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:37:03.094+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:03.094+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:03.108+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:03.129+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:03.128+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:37:03.145+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:03.144+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:37:03.167+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.077 seconds
+[2022-10-14T15:37:37.550+0800] {processor.py:156} INFO - Started process (PID=217559) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:37.551+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:37:37.552+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:37.552+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:37.564+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:37:37.583+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:37.583+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:37:37.596+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:37:37.596+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:37:37.616+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2022-10-14T15:38:11.762+0800] {processor.py:156} INFO - Started process (PID=217638) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:11.763+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:38:11.763+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:11.763+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:11.776+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:11.792+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:11.792+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:38:11.806+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:11.806+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:38:11.824+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T15:38:47.797+0800] {processor.py:156} INFO - Started process (PID=217756) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:47.798+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:38:47.798+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:47.798+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:47.812+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:38:47.831+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:47.831+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:38:47.846+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:38:47.846+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:38:47.866+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.072 seconds
+[2022-10-14T15:39:21.763+0800] {processor.py:156} INFO - Started process (PID=217873) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:21.764+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:39:21.765+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:21.765+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:21.777+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:21.794+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:21.794+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:39:21.813+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:21.812+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:39:21.831+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2022-10-14T15:39:54.601+0800] {processor.py:156} INFO - Started process (PID=217973) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:54.602+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:39:54.603+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:54.603+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:54.620+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:39:54.642+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:54.642+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:39:54.661+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:39:54.661+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:39:54.686+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2022-10-14T15:40:29.926+0800] {processor.py:156} INFO - Started process (PID=218289) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:40:29.927+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:40:29.927+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:40:29.927+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:40:29.940+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:40:29.957+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:40:29.957+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:40:29.971+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:40:29.971+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:40:29.990+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T15:41:03.443+0800] {processor.py:156} INFO - Started process (PID=218407) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:03.444+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:41:03.445+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:03.444+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:03.457+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:03.474+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:03.473+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:41:03.487+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:03.487+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:41:03.505+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.063 seconds
+[2022-10-14T15:41:38.240+0800] {processor.py:156} INFO - Started process (PID=218517) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:38.241+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:41:38.241+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:38.241+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:38.254+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:41:38.273+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:38.273+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:41:38.288+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:41:38.288+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:41:38.306+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2022-10-14T15:42:14.409+0800] {processor.py:156} INFO - Started process (PID=218691) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:14.410+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:42:14.410+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:14.410+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:14.424+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:14.443+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:14.443+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:42:14.460+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:14.460+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:42:14.481+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.075 seconds
+[2022-10-14T15:42:51.802+0800] {processor.py:156} INFO - Started process (PID=218880) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:51.803+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:42:51.804+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:51.803+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:51.817+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:42:51.835+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:51.835+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:42:51.849+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:42:51.849+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:42:51.869+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2022-10-14T15:43:25.563+0800] {processor.py:156} INFO - Started process (PID=218991) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:43:25.563+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:43:25.564+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:43:25.564+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:43:25.577+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:43:25.599+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:43:25.599+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:43:25.616+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:43:25.616+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:43:25.634+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.074 seconds
+[2022-10-14T15:44:01.508+0800] {processor.py:156} INFO - Started process (PID=219084) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:01.509+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:44:01.509+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:01.509+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:01.521+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:01.539+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:01.538+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:44:01.553+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:01.553+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:44:01.572+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T15:44:36.573+0800] {processor.py:156} INFO - Started process (PID=219197) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:36.574+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:44:36.575+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:36.575+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:36.588+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:44:36.606+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:36.605+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:44:36.620+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:44:36.620+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:44:36.642+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T15:45:12.260+0800] {processor.py:156} INFO - Started process (PID=219303) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:12.262+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:45:12.263+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:12.263+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:12.281+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:12.306+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:12.306+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:45:12.328+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:12.328+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:45:12.350+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.093 seconds
+[2022-10-14T15:45:48.773+0800] {processor.py:156} INFO - Started process (PID=219475) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:48.803+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:45:48.804+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:48.803+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:48.825+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:45:48.851+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:48.851+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:45:48.870+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:45:48.870+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:45:49.083+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.313 seconds
+[2022-10-14T15:46:25.426+0800] {processor.py:156} INFO - Started process (PID=219694) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:46:25.427+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:46:25.428+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:46:25.427+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:46:25.442+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:46:25.462+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:46:25.462+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:46:25.479+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:46:25.478+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:46:25.497+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.073 seconds
+[2022-10-14T15:47:03.198+0800] {processor.py:156} INFO - Started process (PID=219850) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:03.199+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:47:03.200+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:03.200+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:03.218+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:03.246+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:03.246+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:47:03.273+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:03.273+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:47:03.299+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.103 seconds
+[2022-10-14T15:47:38.450+0800] {processor.py:156} INFO - Started process (PID=219925) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:38.451+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:47:38.452+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:38.452+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:38.467+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:47:38.488+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:38.488+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:47:38.505+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:47:38.505+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:47:38.527+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2022-10-14T15:48:14.775+0800] {processor.py:156} INFO - Started process (PID=220019) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:14.775+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:48:14.776+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:14.776+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:14.789+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:14.807+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:14.807+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:48:14.831+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:14.831+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:48:14.853+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.080 seconds
+[2022-10-14T15:48:50.037+0800] {processor.py:156} INFO - Started process (PID=220126) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:50.038+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:48:50.039+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:50.038+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:50.052+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:48:50.069+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:50.069+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:48:50.084+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:48:50.084+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:48:50.104+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2022-10-14T15:49:26.167+0800] {processor.py:156} INFO - Started process (PID=220234) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:49:26.168+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:49:26.168+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:49:26.168+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:49:26.184+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:49:26.207+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:49:26.207+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:49:26.228+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:49:26.228+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:49:26.251+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.087 seconds
+[2022-10-14T15:50:01.806+0800] {processor.py:156} INFO - Started process (PID=220396) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:01.806+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:50:01.807+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:01.807+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:01.822+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:01.848+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:01.847+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:50:01.871+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:01.870+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:50:01.893+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2022-10-14T15:50:38.814+0800] {processor.py:156} INFO - Started process (PID=220594) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:38.820+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:50:38.821+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:38.821+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:38.855+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:50:38.892+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:38.892+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:50:38.927+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:50:38.927+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:50:38.964+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.153 seconds
+[2022-10-14T15:52:11.129+0800] {processor.py:156} INFO - Started process (PID=220793) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:11.129+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:52:11.130+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:11.130+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:11.144+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:11.165+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:11.165+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:52:11.179+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:11.178+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:52:11.197+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T15:52:46.700+0800] {processor.py:156} INFO - Started process (PID=220899) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:46.700+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:52:46.701+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:46.701+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:46.713+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:52:46.732+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:46.732+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:52:46.745+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:52:46.745+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:52:46.764+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T15:53:26.163+0800] {processor.py:156} INFO - Started process (PID=220980) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:53:26.164+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:53:26.164+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:53:26.164+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:53:26.178+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:53:26.201+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:53:26.201+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:53:26.216+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:53:26.216+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:53:26.236+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.075 seconds
+[2022-10-14T15:54:37.635+0800] {processor.py:156} INFO - Started process (PID=221228) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:54:37.636+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:54:37.636+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:54:37.636+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:54:37.654+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:54:37.677+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:54:37.677+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:54:37.695+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:54:37.695+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:54:37.720+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2022-10-14T15:55:15.515+0800] {processor.py:156} INFO - Started process (PID=221313) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:15.516+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:55:15.517+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:15.517+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:15.533+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:15.556+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:15.556+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:55:15.576+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:15.576+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:55:15.602+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.090 seconds
+[2022-10-14T15:55:49.776+0800] {processor.py:156} INFO - Started process (PID=221450) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:49.777+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:55:49.778+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:49.778+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:49.801+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:55:49.828+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:49.827+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:55:49.854+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:55:49.854+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:55:49.882+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.110 seconds
+[2022-10-14T15:56:26.197+0800] {processor.py:156} INFO - Started process (PID=221593) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:56:26.198+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:56:26.198+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:56:26.198+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:56:26.212+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:56:26.229+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:56:26.229+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:56:26.243+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:56:26.243+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:56:26.264+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2022-10-14T15:59:19.235+0800] {processor.py:156} INFO - Started process (PID=221859) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:19.237+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:59:19.238+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:19.237+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:19.258+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:19.283+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:19.283+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:59:19.301+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:19.301+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:59:19.321+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.089 seconds
+[2022-10-14T15:59:54.760+0800] {processor.py:156} INFO - Started process (PID=221959) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:54.761+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T15:59:54.761+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:54.761+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:54.774+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T15:59:54.796+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:54.796+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T15:59:54.811+0800] {logging_mixin.py:117} INFO - [2022-10-14T15:59:54.811+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T15:59:54.829+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T16:00:30.499+0800] {processor.py:156} INFO - Started process (PID=222170) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:00:30.499+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:00:30.500+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:00:30.500+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:00:30.516+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:00:30.534+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:00:30.534+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:00:30.548+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:00:30.548+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:00:30.568+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T16:01:05.810+0800] {processor.py:156} INFO - Started process (PID=222263) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:05.811+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:01:05.811+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:05.811+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:05.825+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:05.842+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:05.842+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:01:05.855+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:05.855+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:01:05.874+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:01:41.564+0800] {processor.py:156} INFO - Started process (PID=222306) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:41.565+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:01:41.565+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:41.565+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:41.578+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:01:41.595+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:41.595+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:01:41.609+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:01:41.608+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:01:41.627+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T16:02:16.679+0800] {processor.py:156} INFO - Started process (PID=222376) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:02:16.679+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:02:16.680+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:02:16.680+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:02:16.692+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:02:16.709+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:02:16.709+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:02:16.724+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:02:16.724+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:02:16.743+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:03:16.809+0800] {processor.py:156} INFO - Started process (PID=222475) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:16.810+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:03:16.811+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:16.810+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:16.826+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:16.847+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:16.847+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:03:16.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:16.862+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:03:16.886+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.079 seconds
+[2022-10-14T16:03:52.398+0800] {processor.py:156} INFO - Started process (PID=222517) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:52.399+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:03:52.399+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:52.399+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:52.415+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:03:52.437+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:52.437+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:03:52.454+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:03:52.454+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:03:52.476+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.081 seconds
+[2022-10-14T16:07:48.294+0800] {processor.py:156} INFO - Started process (PID=223360) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:07:48.295+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:07:48.296+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:07:48.296+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:07:48.315+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:07:48.339+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:07:48.339+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:07:48.357+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:07:48.357+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:07:48.383+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.091 seconds
+[2022-10-14T16:08:24.128+0800] {processor.py:156} INFO - Started process (PID=223443) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:24.128+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:08:24.129+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:24.129+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:24.142+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:24.160+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:24.160+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:08:24.174+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:24.173+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:08:24.193+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2022-10-14T16:08:59.227+0800] {processor.py:156} INFO - Started process (PID=223565) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:59.228+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:08:59.228+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:59.228+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:59.244+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:08:59.262+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:59.262+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:08:59.276+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:08:59.276+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:08:59.296+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T16:09:32.478+0800] {processor.py:156} INFO - Started process (PID=223718) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:09:32.479+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:09:32.480+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:09:32.479+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:09:32.496+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:09:32.518+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:09:32.517+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:09:32.538+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:09:32.538+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:09:32.559+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.083 seconds
+[2022-10-14T16:10:07.595+0800] {processor.py:156} INFO - Started process (PID=223935) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:07.596+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:10:07.597+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:07.597+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:07.610+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:07.627+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:07.627+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:10:07.644+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:07.644+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:10:07.665+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+[2022-10-14T16:10:43.714+0800] {processor.py:156} INFO - Started process (PID=224029) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:43.715+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:10:43.715+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:43.715+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:43.728+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:10:43.745+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:43.745+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:10:43.760+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:10:43.760+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:10:43.778+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:11:19.208+0800] {processor.py:156} INFO - Started process (PID=224130) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:19.209+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:11:19.209+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:19.209+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:19.223+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:19.240+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:19.240+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:11:19.256+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:19.256+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:11:19.274+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.069 seconds
+[2022-10-14T16:11:53.518+0800] {processor.py:156} INFO - Started process (PID=224268) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:53.519+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:11:53.520+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:53.519+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:53.532+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:11:53.550+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:53.550+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:11:53.564+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:11:53.564+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:11:53.583+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.068 seconds
+[2022-10-14T16:12:29.227+0800] {processor.py:156} INFO - Started process (PID=224367) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:12:29.228+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:12:29.228+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:12:29.228+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:12:29.241+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:12:29.259+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:12:29.259+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:12:29.272+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:12:29.272+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:12:29.291+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:13:04.310+0800] {processor.py:156} INFO - Started process (PID=224460) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:04.311+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:13:04.311+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:04.311+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:04.323+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:04.341+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:04.341+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:13:04.354+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:04.354+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:13:04.372+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.064 seconds
+[2022-10-14T16:13:38.234+0800] {processor.py:156} INFO - Started process (PID=224538) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:38.235+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:13:38.235+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:38.235+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:38.248+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:13:38.265+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:38.265+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:13:38.279+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:13:38.279+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:13:38.298+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:14:13.507+0800] {processor.py:156} INFO - Started process (PID=224655) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:13.508+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:14:13.508+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:13.508+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:13.521+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:13.538+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:13.538+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:14:13.552+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:13.552+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:14:13.572+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2022-10-14T16:14:49.967+0800] {processor.py:156} INFO - Started process (PID=224911) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:49.967+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:14:49.968+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:49.968+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:49.985+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:14:50.009+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:50.009+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:14:50.030+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:14:50.030+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:14:50.060+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.096 seconds
+[2022-10-14T16:15:24.911+0800] {processor.py:156} INFO - Started process (PID=224976) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:15:24.912+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:15:24.912+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:15:24.912+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:15:24.925+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:15:24.942+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:15:24.941+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:15:24.957+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:15:24.957+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:15:24.975+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.067 seconds
+[2022-10-14T16:16:01.006+0800] {processor.py:156} INFO - Started process (PID=225020) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:01.007+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:16:01.008+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:01.008+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:01.020+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:01.037+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:01.037+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:16:01.052+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:01.052+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:16:01.070+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T16:16:35.264+0800] {processor.py:156} INFO - Started process (PID=225068) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:35.265+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:16:35.265+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:35.265+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:35.278+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:16:35.296+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:35.296+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:16:35.309+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:16:35.309+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:16:35.329+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:17:09.988+0800] {processor.py:156} INFO - Started process (PID=225123) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:09.989+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:17:09.990+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:09.990+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:10.002+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:10.020+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:10.019+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:17:10.033+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:10.033+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:17:10.051+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T16:17:44.951+0800] {processor.py:156} INFO - Started process (PID=225176) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:44.952+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:17:44.953+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:44.953+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:44.965+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:17:44.983+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:44.982+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:17:44.996+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:17:44.996+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:17:45.014+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T16:18:19.567+0800] {processor.py:156} INFO - Started process (PID=225227) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:19.567+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:18:19.568+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:19.568+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:19.580+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:19.597+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:19.597+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:18:19.611+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:19.611+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:18:19.629+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2022-10-14T16:18:53.129+0800] {processor.py:156} INFO - Started process (PID=225267) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:53.130+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:18:53.131+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:53.131+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:53.143+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:18:53.161+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:53.160+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:18:53.174+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:18:53.174+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:18:53.193+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.066 seconds
+[2022-10-14T16:19:26.821+0800] {processor.py:156} INFO - Started process (PID=225310) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:19:26.822+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2022-10-14T16:19:26.822+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:26.822+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:19:26.836+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2022-10-14T16:19:26.856+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:26.856+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:19:26.872+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:26.872+0800] {dag.py:3324} INFO - Setting next_dagrun for example_branch_operator to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:19:26.893+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.075 seconds

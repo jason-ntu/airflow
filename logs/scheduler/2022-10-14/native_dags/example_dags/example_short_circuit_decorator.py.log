@@ -905,3 +905,10 @@
 [2022-10-14T16:58:39.149+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:39.149+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:58:39.239+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:39.239+0800] {dag.py:3324} INFO - Setting next_dagrun for example_short_circuit_decorator to 2022-10-13T08:58:39.239619+00:00, run_after=2022-10-14T08:58:39.239619+00:00
 [2022-10-14T16:58:39.260+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.150 seconds
+[2022-10-14T16:59:19.462+0800] {processor.py:156} INFO - Started process (PID=233095) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2022-10-14T16:59:19.463+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2022-10-14T16:59:19.463+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:19.463+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2022-10-14T16:59:19.481+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_short_circuit_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2022-10-14T16:59:19.581+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:19.581+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:59:19.594+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:19.593+0800] {dag.py:3324} INFO - Setting next_dagrun for example_short_circuit_decorator to 2022-10-13T08:59:19.593778+00:00, run_after=2022-10-14T08:59:19.593778+00:00
+[2022-10-14T16:59:19.613+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.152 seconds

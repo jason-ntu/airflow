@@ -926,3 +926,17 @@
 [2022-10-14T16:58:28.639+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:28.639+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:58:28.730+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:28.730+0800] {dag.py:3324} INFO - Setting next_dagrun for example_skip_dag to 2022-10-13T08:58:28.730388+00:00, run_after=2022-10-14T08:58:28.730388+00:00
 [2022-10-14T16:58:28.749+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.140 seconds
+[2022-10-14T16:59:07.490+0800] {processor.py:156} INFO - Started process (PID=233010) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:07.491+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-14T16:59:07.492+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:07.492+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:07.502+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:07.519+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:07.519+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:59:07.616+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:07.616+0800] {dag.py:3324} INFO - Setting next_dagrun for example_skip_dag to 2022-10-13T08:59:07.616616+00:00, run_after=2022-10-14T08:59:07.616616+00:00
+[2022-10-14T16:59:07.642+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.154 seconds
+[2022-10-14T16:59:46.066+0800] {processor.py:156} INFO - Started process (PID=233225) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:46.067+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-10-14T16:59:46.068+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:46.068+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:46.079+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-10-14T16:59:46.101+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:46.100+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:59:46.226+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:46.226+0800] {dag.py:3324} INFO - Setting next_dagrun for example_skip_dag to 2022-10-13T08:59:46.226443+00:00, run_after=2022-10-14T08:59:46.226443+00:00
+[2022-10-14T16:59:46.245+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.181 seconds

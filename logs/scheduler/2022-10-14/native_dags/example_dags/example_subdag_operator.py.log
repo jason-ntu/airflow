@@ -1588,3 +1588,15 @@
 [2022-10-14T16:58:31.713+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:31.713+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
 [2022-10-14T16:58:31.713+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:31.713+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
 [2022-10-14T16:58:31.727+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.227 seconds
+[2022-10-14T16:59:10.418+0800] {processor.py:156} INFO - Started process (PID=233031) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-14T16:59:10.418+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-10-14T16:59:10.419+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.419+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-14T16:59:10.438+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-10-14T16:59:10.597+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.597+0800] {dag.py:2573} INFO - Sync 3 DAGs
+[2022-10-14T16:59:10.609+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.608+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-10-14T16:59:10.610+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.610+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-14T16:59:10.611+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.611+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-14T16:59:10.614+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.614+0800] {dag.py:2573} INFO - Sync 2 DAGs
+[2022-10-14T16:59:10.617+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.617+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-10-14T16:59:10.617+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:10.617+0800] {dag.py:3324} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-10-14T16:59:10.631+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.215 seconds

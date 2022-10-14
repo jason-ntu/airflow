@@ -638,3 +638,11 @@
 [2022-10-14T16:19:28.079+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:28.078+0800] {dag.py:3324} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2022-10-14T16:19:28.081+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:28.080+0800] {dag.py:3324} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2022-10-14T16:19:28.132+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.168 seconds
+[2022-10-14T16:27:14.933+0800] {processor.py:156} INFO - Started process (PID=226950) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-14T16:27:14.934+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-10-14T16:27:14.934+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:14.934+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-14T16:27:14.945+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-10-14T16:27:15.053+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:15.053+0800] {dag.py:2573} INFO - Sync 2 DAGs
+[2022-10-14T16:27:15.073+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:15.073+0800] {dag.py:3324} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-10-14T16:27:15.184+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:27:15.184+0800] {dag.py:3324} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-10-14T16:27:15.202+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.271 seconds

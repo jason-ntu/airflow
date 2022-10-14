@@ -634,3 +634,11 @@
 [2022-10-14T16:19:35.534+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:35.534+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:19:35.547+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:19:35.547+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2022-10-14T16:19:35.566+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2022-10-14T16:26:46.464+0800] {processor.py:156} INFO - Started process (PID=226718) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:26:46.465+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-10-14T16:26:46.465+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.465+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:26:46.479+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.479+0800] {example_python_operator.py:85} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-10-14T16:26:46.483+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-10-14T16:26:46.500+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.500+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:26:46.512+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:26:46.512+0800] {dag.py:3324} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-10-14T16:26:46.531+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds

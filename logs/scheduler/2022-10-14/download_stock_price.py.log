@@ -352,3 +352,728 @@
 [2022-10-14T17:01:36.681+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:36.680+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T17:01:36.700+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:36.700+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T08:29:23.984440+00:00, run_after=2022-10-15T08:29:23.984440+00:00
 [2022-10-14T17:01:36.725+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.397 seconds
+[2022-10-14T17:02:15.774+0800] {processor.py:156} INFO - Started process (PID=233995) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:02:15.775+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:02:15.775+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:15.775+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:02:15.993+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:02:16.006+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:16.006+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:02:16.018+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:16.018+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T08:29:23.984440+00:00, run_after=2022-10-15T08:29:23.984440+00:00
+[2022-10-14T17:02:16.035+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.263 seconds
+[2022-10-14T17:48:06.789+0800] {processor.py:156} INFO - Started process (PID=244565) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:06.790+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:06.791+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:06.791+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:07.056+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:07.152+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.152+0800] {manager.py:507} INFO - Created Permission View: can edit on DAG:Download_Stock_Price
+[2022-10-14T17:48:07.169+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.169+0800] {manager.py:507} INFO - Created Permission View: can delete on DAG:Download_Stock_Price
+[2022-10-14T17:48:07.182+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.182+0800] {manager.py:507} INFO - Created Permission View: can read on DAG:Download_Stock_Price
+[2022-10-14T17:48:07.182+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.182+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:07.193+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.193+0800] {dag.py:2594} INFO - Creating ORM DAG for Download_Stock_Price
+[2022-10-14T17:48:07.204+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.203+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:07.203718+00:00, run_after=2022-10-14T09:48:07.203718+00:00
+[2022-10-14T17:48:07.223+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.437 seconds
+[2022-10-14T17:48:10.934+0800] {processor.py:156} INFO - Started process (PID=244809) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:10.935+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:10.935+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:10.935+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:11.212+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:11.228+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:11.228+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:11.244+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:11.244+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:11.244170+00:00, run_after=2022-10-14T09:48:11.244170+00:00
+[2022-10-14T17:48:11.265+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.333 seconds
+[2022-10-14T17:48:12.934+0800] {processor.py:156} INFO - Started process (PID=245068) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:12.935+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:12.935+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:12.935+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:13.212+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:13.229+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:13.228+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:13.244+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:13.244+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:13.244099+00:00, run_after=2022-10-14T09:48:13.244099+00:00
+[2022-10-14T17:48:13.266+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.334 seconds
+[2022-10-14T17:48:14.749+0800] {processor.py:156} INFO - Started process (PID=245251) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:14.750+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:14.750+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:14.750+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:15.004+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:15.019+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:15.018+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:15.036+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:15.036+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:15.036547+00:00, run_after=2022-10-14T09:48:15.036547+00:00
+[2022-10-14T17:48:15.064+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.317 seconds
+[2022-10-14T17:48:16.642+0800] {processor.py:156} INFO - Started process (PID=245553) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:16.643+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:16.643+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.643+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:16.902+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:16.917+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.917+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:16.931+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.931+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:16.931573+00:00, run_after=2022-10-14T09:48:16.931573+00:00
+[2022-10-14T17:48:16.953+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.313 seconds
+[2022-10-14T17:48:18.577+0800] {processor.py:156} INFO - Started process (PID=245735) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:18.578+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:18.578+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.578+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:18.832+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:18.848+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.848+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:18.865+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.865+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:18.865083+00:00, run_after=2022-10-14T09:48:18.865083+00:00
+[2022-10-14T17:48:18.890+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.316 seconds
+[2022-10-14T17:48:20.498+0800] {processor.py:156} INFO - Started process (PID=245919) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:20.499+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:20.499+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.499+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:20.740+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:20.755+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.755+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:20.775+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.775+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:20.774742+00:00, run_after=2022-10-14T09:48:20.774742+00:00
+[2022-10-14T17:48:20.798+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.303 seconds
+[2022-10-14T17:48:22.420+0800] {processor.py:156} INFO - Started process (PID=246100) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:22.421+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:22.421+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.421+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:22.671+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:22.686+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.686+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:22.701+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.701+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:22.701689+00:00, run_after=2022-10-14T09:48:22.701689+00:00
+[2022-10-14T17:48:22.727+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.309 seconds
+[2022-10-14T17:48:24.352+0800] {processor.py:156} INFO - Started process (PID=246283) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:24.353+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:24.353+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.353+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:24.597+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:24.613+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.613+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:24.628+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.628+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:24.628015+00:00, run_after=2022-10-14T09:48:24.628015+00:00
+[2022-10-14T17:48:24.649+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.300 seconds
+[2022-10-14T17:48:26.189+0800] {processor.py:156} INFO - Started process (PID=246471) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:26.189+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:26.190+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.190+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:26.443+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:26.457+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.457+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:26.472+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.472+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:26.471433+00:00, run_after=2022-10-14T09:48:26.471433+00:00
+[2022-10-14T17:48:26.495+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.309 seconds
+[2022-10-14T17:48:28.013+0800] {processor.py:156} INFO - Started process (PID=246651) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:28.014+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:28.015+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.015+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:28.260+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:28.275+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.275+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:28.293+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.293+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:28.293056+00:00, run_after=2022-10-14T09:48:28.293056+00:00
+[2022-10-14T17:48:28.318+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.307 seconds
+[2022-10-14T17:48:29.925+0800] {processor.py:156} INFO - Started process (PID=246833) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:29.926+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:29.927+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:29.926+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:30.171+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:30.186+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:30.186+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:30.202+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:30.202+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:30.202204+00:00, run_after=2022-10-14T09:48:30.202204+00:00
+[2022-10-14T17:48:30.223+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.301 seconds
+[2022-10-14T17:48:31.919+0800] {processor.py:156} INFO - Started process (PID=247018) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:31.919+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:31.920+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:31.920+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:32.243+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:32.262+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:32.261+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:32.285+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:32.285+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:32.285405+00:00, run_after=2022-10-14T09:48:32.285405+00:00
+[2022-10-14T17:48:32.313+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.398 seconds
+[2022-10-14T17:48:34.193+0800] {processor.py:156} INFO - Started process (PID=247204) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:34.194+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:34.194+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.194+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:34.496+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:34.513+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.513+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:34.530+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.530+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:34.530570+00:00, run_after=2022-10-14T09:48:34.530570+00:00
+[2022-10-14T17:48:34.559+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.368 seconds
+[2022-10-14T17:48:36.477+0800] {processor.py:156} INFO - Started process (PID=247462) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:36.478+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:36.478+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.478+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:36.725+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:36.739+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.739+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:36.753+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.753+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:36.753404+00:00, run_after=2022-10-14T09:48:36.753404+00:00
+[2022-10-14T17:48:36.777+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.302 seconds
+[2022-10-14T17:48:38.304+0800] {processor.py:156} INFO - Started process (PID=247645) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:38.305+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:38.305+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.305+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:38.553+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:38.578+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.578+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:38.596+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.596+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:38.596536+00:00, run_after=2022-10-14T09:48:38.596536+00:00
+[2022-10-14T17:48:38.622+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.320 seconds
+[2022-10-14T17:48:40.461+0800] {processor.py:156} INFO - Started process (PID=247838) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:40.461+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:40.462+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.462+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:40.738+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:40.761+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.761+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:40.775+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.775+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:40.775557+00:00, run_after=2022-10-14T09:48:40.775557+00:00
+[2022-10-14T17:48:40.799+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.342 seconds
+[2022-10-14T17:48:42.742+0800] {processor.py:156} INFO - Started process (PID=248046) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:42.743+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:42.743+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:42.743+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:42.991+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:43.012+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:43.012+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:43.026+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:43.026+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:43.025890+00:00, run_after=2022-10-14T09:48:43.025890+00:00
+[2022-10-14T17:48:43.049+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.309 seconds
+[2022-10-14T17:48:44.820+0800] {processor.py:156} INFO - Started process (PID=248228) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:44.820+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:44.820+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:44.820+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:45.042+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:45.062+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:45.062+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:45.075+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:45.075+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:45.075054+00:00, run_after=2022-10-14T09:48:45.075054+00:00
+[2022-10-14T17:48:45.218+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.400 seconds
+[2022-10-14T17:48:50.514+0800] {processor.py:156} INFO - Started process (PID=248436) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:50.514+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:50.515+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.515+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:50.782+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:50.803+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.803+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:50.816+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.816+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:50.816750+00:00, run_after=2022-10-14T09:48:50.816750+00:00
+[2022-10-14T17:48:50.971+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.459 seconds
+[2022-10-14T17:48:56.901+0800] {processor.py:156} INFO - Started process (PID=248649) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:56.941+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:48:56.941+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:56.941+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:57.192+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:48:57.216+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:57.215+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:57.231+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:57.231+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:48:57.231610+00:00, run_after=2022-10-14T09:48:57.231610+00:00
+[2022-10-14T17:48:57.549+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.650 seconds
+[2022-10-14T17:49:02.639+0800] {processor.py:156} INFO - Started process (PID=248862) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:02.640+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:02.641+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.641+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:02.950+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:02.973+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.973+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:02.989+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.989+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:02.988878+00:00, run_after=2022-10-14T09:49:02.988878+00:00
+[2022-10-14T17:49:03.012+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.377 seconds
+[2022-10-14T17:49:04.984+0800] {processor.py:156} INFO - Started process (PID=249047) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:04.985+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:04.985+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:04.985+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:05.290+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:05.313+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:05.313+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:05.328+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:05.328+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:05.327865+00:00, run_after=2022-10-14T09:49:05.327865+00:00
+[2022-10-14T17:49:05.350+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.368 seconds
+[2022-10-14T17:49:07.313+0800] {processor.py:156} INFO - Started process (PID=249230) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:07.314+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:07.314+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.314+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:07.581+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:07.603+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.603+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:07.618+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.617+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:07.617706+00:00, run_after=2022-10-14T09:49:07.617706+00:00
+[2022-10-14T17:49:07.640+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.330 seconds
+[2022-10-14T17:49:09.643+0800] {processor.py:156} INFO - Started process (PID=249410) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:09.644+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:09.645+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.644+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:09.904+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:09.926+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.926+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:09.940+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.940+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:09.940349+00:00, run_after=2022-10-14T09:49:09.940349+00:00
+[2022-10-14T17:49:09.961+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.321 seconds
+[2022-10-14T17:49:11.953+0800] {processor.py:156} INFO - Started process (PID=249592) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:11.953+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:11.954+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:11.954+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:12.219+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:12.248+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:12.248+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:12.266+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:12.265+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:12.265752+00:00, run_after=2022-10-14T09:49:12.265752+00:00
+[2022-10-14T17:49:12.289+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.339 seconds
+[2022-10-14T17:49:14.386+0800] {processor.py:156} INFO - Started process (PID=249772) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:14.386+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:14.387+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.387+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:14.651+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:14.678+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.678+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:14.696+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.696+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:14.696528+00:00, run_after=2022-10-14T09:49:14.696528+00:00
+[2022-10-14T17:49:14.718+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.335 seconds
+[2022-10-14T17:49:16.675+0800] {processor.py:156} INFO - Started process (PID=249955) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:16.675+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:16.676+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.676+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:16.940+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:16.965+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.965+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:16.982+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.982+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:16.982236+00:00, run_after=2022-10-14T09:49:16.982236+00:00
+[2022-10-14T17:49:17.003+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.332 seconds
+[2022-10-14T17:49:19.056+0800] {processor.py:156} INFO - Started process (PID=250137) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:19.057+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:19.057+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.057+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:19.365+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:19.394+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.394+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:19.409+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.409+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:19.408932+00:00, run_after=2022-10-14T09:49:19.408932+00:00
+[2022-10-14T17:49:19.429+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.376 seconds
+[2022-10-14T17:49:21.451+0800] {processor.py:156} INFO - Started process (PID=250324) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:21.451+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:21.452+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.452+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:21.675+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:21.695+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.695+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:21.708+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.708+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:21.708164+00:00, run_after=2022-10-14T09:49:21.708164+00:00
+[2022-10-14T17:49:21.843+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.395 seconds
+[2022-10-14T17:49:27.328+0800] {processor.py:156} INFO - Started process (PID=250512) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:27.328+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:49:27.329+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.329+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:27.595+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:49:27.621+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.621+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:27.637+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.637+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:49:27.637686+00:00, run_after=2022-10-14T09:49:27.637686+00:00
+[2022-10-14T17:49:27.861+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.536 seconds
+[2022-10-14T17:50:54.459+0800] {processor.py:156} INFO - Started process (PID=251503) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:54.460+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:50:54.460+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:54.460+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:54.910+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:54.981+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:54.981+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:55.005+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:55.005+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:50:55.005065+00:00, run_after=2022-10-14T09:50:55.005065+00:00
+[2022-10-14T17:50:55.041+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.585 seconds
+[2022-10-14T17:50:56.982+0800] {processor.py:156} INFO - Started process (PID=251726) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:56.983+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:50:56.984+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:56.984+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:57.259+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:57.284+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:57.284+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:57.298+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:57.298+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:50:57.298500+00:00, run_after=2022-10-14T09:50:57.298500+00:00
+[2022-10-14T17:50:57.320+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.341 seconds
+[2022-10-14T17:50:59.221+0800] {processor.py:156} INFO - Started process (PID=252047) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:59.222+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:50:59.222+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.222+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:59.494+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:50:59.517+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.517+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:59.531+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.531+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:50:59.531512+00:00, run_after=2022-10-14T09:50:59.531512+00:00
+[2022-10-14T17:50:59.551+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.335 seconds
+[2022-10-14T17:51:01.392+0800] {processor.py:156} INFO - Started process (PID=252242) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:01.392+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:01.393+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.393+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:01.696+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:01.732+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.732+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:01.759+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.759+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:01.759344+00:00, run_after=2022-10-14T09:51:01.759344+00:00
+[2022-10-14T17:51:01.798+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.410 seconds
+[2022-10-14T17:51:04.360+0800] {processor.py:156} INFO - Started process (PID=252563) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:04.361+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:04.362+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.362+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:04.652+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:04.674+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.674+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:04.688+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.688+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:04.688485+00:00, run_after=2022-10-14T09:51:04.688485+00:00
+[2022-10-14T17:51:04.719+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.362 seconds
+[2022-10-14T17:51:06.778+0800] {processor.py:156} INFO - Started process (PID=252759) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:06.779+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:06.779+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:06.779+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:07.168+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:07.203+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:07.203+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:07.226+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:07.226+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:07.225904+00:00, run_after=2022-10-14T09:51:07.225904+00:00
+[2022-10-14T17:51:07.263+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.487 seconds
+[2022-10-14T17:51:09.717+0800] {processor.py:156} INFO - Started process (PID=252963) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:09.718+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:09.718+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:09.718+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:10.086+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:10.123+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:10.122+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:10.143+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:10.143+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:10.143123+00:00, run_after=2022-10-14T09:51:10.143123+00:00
+[2022-10-14T17:51:10.171+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.457 seconds
+[2022-10-14T17:51:12.857+0800] {processor.py:156} INFO - Started process (PID=253187) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:12.859+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:12.860+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:12.860+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:13.223+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:13.249+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:13.249+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:13.268+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:13.268+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:13.268667+00:00, run_after=2022-10-14T09:51:13.268667+00:00
+[2022-10-14T17:51:13.297+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.444 seconds
+[2022-10-14T17:51:18.076+0800] {processor.py:156} INFO - Started process (PID=253375) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:18.139+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:18.140+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.140+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:18.467+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:18.496+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.496+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:18.515+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.515+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:18.515501+00:00, run_after=2022-10-14T09:51:18.515501+00:00
+[2022-10-14T17:51:18.722+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.649 seconds
+[2022-10-14T17:51:21.629+0800] {processor.py:156} INFO - Started process (PID=253560) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:21.630+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:21.630+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:21.630+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:21.988+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:22.017+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:22.017+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:22.040+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:22.040+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:22.039991+00:00, run_after=2022-10-14T09:51:22.039991+00:00
+[2022-10-14T17:51:22.067+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.441 seconds
+[2022-10-14T17:51:24.705+0800] {processor.py:156} INFO - Started process (PID=253743) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:24.706+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:24.707+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:24.707+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:25.076+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:25.105+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:25.105+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:25.131+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:25.130+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:25.130770+00:00, run_after=2022-10-14T09:51:25.130770+00:00
+[2022-10-14T17:51:25.164+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.463 seconds
+[2022-10-14T17:51:27.516+0800] {processor.py:156} INFO - Started process (PID=253923) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:27.517+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:27.517+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.517+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:27.905+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:27.935+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.934+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:27.956+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.956+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:27.956336+00:00, run_after=2022-10-14T09:51:27.956336+00:00
+[2022-10-14T17:51:27.982+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.469 seconds
+[2022-10-14T17:51:30.361+0800] {processor.py:156} INFO - Started process (PID=254109) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:30.361+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:30.362+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.362+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:30.694+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:30.721+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.720+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:30.745+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.745+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:30.745252+00:00, run_after=2022-10-14T09:51:30.745252+00:00
+[2022-10-14T17:51:30.776+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.419 seconds
+[2022-10-14T17:51:33.605+0800] {processor.py:156} INFO - Started process (PID=254311) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:33.607+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:33.608+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:33.608+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:34.014+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:34.044+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:34.044+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:34.063+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:34.063+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:34.063136+00:00, run_after=2022-10-14T09:51:34.063136+00:00
+[2022-10-14T17:51:34.089+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.488 seconds
+[2022-10-14T17:51:36.624+0800] {processor.py:156} INFO - Started process (PID=254494) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:36.624+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:36.625+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:36.625+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:36.984+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:37.015+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:37.015+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:37.036+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:37.036+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:37.036147+00:00, run_after=2022-10-14T09:51:37.036147+00:00
+[2022-10-14T17:51:37.063+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.442 seconds
+[2022-10-14T17:51:39.648+0800] {processor.py:156} INFO - Started process (PID=254680) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:39.649+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:39.650+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:39.650+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:39.993+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:40.026+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:40.026+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:40.050+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:40.050+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:40.049860+00:00, run_after=2022-10-14T09:51:40.049860+00:00
+[2022-10-14T17:51:40.082+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.437 seconds
+[2022-10-14T17:51:42.584+0800] {processor.py:156} INFO - Started process (PID=254865) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:42.585+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:42.586+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.586+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:42.906+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:42.931+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.931+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:42.948+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.948+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:42.948247+00:00, run_after=2022-10-14T09:51:42.948247+00:00
+[2022-10-14T17:51:42.974+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.393 seconds
+[2022-10-14T17:51:45.618+0800] {processor.py:156} INFO - Started process (PID=255048) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:45.619+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:45.620+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:45.620+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:45.983+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:46.013+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:46.013+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:46.034+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:46.033+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:46.033522+00:00, run_after=2022-10-14T09:51:46.033522+00:00
+[2022-10-14T17:51:46.061+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.447 seconds
+[2022-10-14T17:51:48.736+0800] {processor.py:156} INFO - Started process (PID=255254) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:48.737+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:48.737+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:48.737+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:49.025+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:49.050+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:49.050+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:49.066+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:49.066+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:49.066165+00:00, run_after=2022-10-14T09:51:49.066165+00:00
+[2022-10-14T17:51:49.091+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.358 seconds
+[2022-10-14T17:51:51.586+0800] {processor.py:156} INFO - Started process (PID=255448) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:51.587+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:51.588+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.588+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:51.892+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:51.920+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.920+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:51.939+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.939+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:51.939137+00:00, run_after=2022-10-14T09:51:51.939137+00:00
+[2022-10-14T17:51:51.964+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.381 seconds
+[2022-10-14T17:51:54.531+0800] {processor.py:156} INFO - Started process (PID=255660) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:54.532+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:54.533+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:54.533+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:54.849+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:54.876+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:54.876+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:54.894+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:54.894+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:54.894429+00:00, run_after=2022-10-14T09:51:54.894429+00:00
+[2022-10-14T17:51:54.918+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.390 seconds
+[2022-10-14T17:51:57.454+0800] {processor.py:156} INFO - Started process (PID=255841) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:57.455+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:51:57.456+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.456+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:57.838+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:51:57.867+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.866+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:57.887+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.887+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:51:57.886957+00:00, run_after=2022-10-14T09:51:57.886957+00:00
+[2022-10-14T17:51:57.912+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.461 seconds
+[2022-10-14T17:52:00.301+0800] {processor.py:156} INFO - Started process (PID=256057) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:00.302+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:00.303+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.303+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:00.621+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:00.647+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.647+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:00.667+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.667+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:00.666897+00:00, run_after=2022-10-14T09:52:00.666897+00:00
+[2022-10-14T17:52:00.694+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.398 seconds
+[2022-10-14T17:52:02.827+0800] {processor.py:156} INFO - Started process (PID=256237) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:02.828+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:02.828+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:02.828+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:03.143+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:03.172+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:03.172+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:03.191+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:03.191+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:03.190968+00:00, run_after=2022-10-14T09:52:03.190968+00:00
+[2022-10-14T17:52:03.217+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.392 seconds
+[2022-10-14T17:52:07.575+0800] {processor.py:156} INFO - Started process (PID=256424) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:07.576+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:07.577+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.577+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:07.925+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:07.951+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.951+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:07.972+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.972+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:07.972541+00:00, run_after=2022-10-14T09:52:07.972541+00:00
+[2022-10-14T17:52:07.999+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.427 seconds
+[2022-10-14T17:52:10.404+0800] {processor.py:156} INFO - Started process (PID=256605) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:10.405+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:10.405+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.405+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:10.700+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:10.727+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.726+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:10.745+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.745+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:10.744946+00:00, run_after=2022-10-14T09:52:10.744946+00:00
+[2022-10-14T17:52:10.773+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.372 seconds
+[2022-10-14T17:52:13.250+0800] {processor.py:156} INFO - Started process (PID=256783) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:13.251+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:13.252+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.252+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:13.560+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:13.587+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.587+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:13.607+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.607+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:13.607366+00:00, run_after=2022-10-14T09:52:13.607366+00:00
+[2022-10-14T17:52:13.634+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.388 seconds
+[2022-10-14T17:52:15.916+0800] {processor.py:156} INFO - Started process (PID=256963) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:15.917+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:15.917+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:15.917+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:16.279+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:16.306+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:16.306+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:16.324+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:16.324+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:16.324465+00:00, run_after=2022-10-14T09:52:16.324465+00:00
+[2022-10-14T17:52:16.350+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.438 seconds
+[2022-10-14T17:52:18.516+0800] {processor.py:156} INFO - Started process (PID=257143) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:18.517+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:18.519+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.518+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:18.841+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:18.869+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.869+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:18.885+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.885+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:18.885391+00:00, run_after=2022-10-14T09:52:18.885391+00:00
+[2022-10-14T17:52:18.909+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.397 seconds
+[2022-10-14T17:52:21.348+0800] {processor.py:156} INFO - Started process (PID=257323) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:21.349+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:21.349+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.349+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:21.676+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:21.705+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.704+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:21.723+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.723+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:21.723311+00:00, run_after=2022-10-14T09:52:21.723311+00:00
+[2022-10-14T17:52:21.746+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.402 seconds
+[2022-10-14T17:52:24.072+0800] {processor.py:156} INFO - Started process (PID=257503) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:24.073+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:24.074+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.073+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:24.393+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:24.421+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.421+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:24.440+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.439+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:24.439763+00:00, run_after=2022-10-14T09:52:24.439763+00:00
+[2022-10-14T17:52:24.463+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.395 seconds
+[2022-10-14T17:52:27.740+0800] {processor.py:156} INFO - Started process (PID=257807) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:27.740+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:27.741+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:27.741+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:28.061+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:28.086+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:28.086+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:28.105+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:28.105+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:28.105058+00:00, run_after=2022-10-14T09:52:28.105058+00:00
+[2022-10-14T17:52:28.133+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.397 seconds
+[2022-10-14T17:52:33.038+0800] {processor.py:156} INFO - Started process (PID=258098) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:33.039+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:33.041+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.040+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:33.588+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:33.647+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.647+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:33.689+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.689+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:33.688842+00:00, run_after=2022-10-14T09:52:33.688842+00:00
+[2022-10-14T17:52:33.737+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.703 seconds
+[2022-10-14T17:52:39.083+0800] {processor.py:156} INFO - Started process (PID=258343) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:39.084+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:39.085+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.085+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:39.415+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:39.448+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.448+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:39.464+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.464+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:39.463975+00:00, run_after=2022-10-14T09:52:39.463975+00:00
+[2022-10-14T17:52:39.490+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.411 seconds
+[2022-10-14T17:52:43.453+0800] {processor.py:156} INFO - Started process (PID=258541) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:43.454+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:43.455+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:43.455+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:43.861+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:43.892+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:43.891+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:43.912+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:43.912+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:43.912316+00:00, run_after=2022-10-14T09:52:43.912316+00:00
+[2022-10-14T17:52:43.949+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.499 seconds
+[2022-10-14T17:52:47.424+0800] {processor.py:156} INFO - Started process (PID=258758) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:47.425+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:47.426+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:47.426+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:47.687+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:47.712+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:47.711+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:47.734+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:47.733+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:47.733726+00:00, run_after=2022-10-14T09:52:47.733726+00:00
+[2022-10-14T17:52:48.022+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.601 seconds
+[2022-10-14T17:52:55.135+0800] {processor.py:156} INFO - Started process (PID=259000) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:55.136+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:52:55.137+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:55.137+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:55.667+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:52:55.707+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:55.706+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:55.726+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:55.725+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-13T09:52:55.725734+00:00, run_after=2022-10-14T09:52:55.725734+00:00
+[2022-10-14T17:52:55.755+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.627 seconds
+[2022-10-14T17:53:02.121+0800] {processor.py:156} INFO - Started process (PID=259371) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:02.123+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:02.125+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:02.124+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:02.722+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:02.762+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:02.762+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:02.797+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:02.796+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:02.841+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.728 seconds
+[2022-10-14T17:53:09.628+0800] {processor.py:156} INFO - Started process (PID=259763) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:09.629+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:09.629+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:09.629+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:09.985+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:10.013+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:10.013+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:10.039+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:10.039+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:10.074+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.448 seconds
+[2022-10-14T17:53:11.205+0800] {processor.py:156} INFO - Started process (PID=259889) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:11.205+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:11.206+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.206+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:11.431+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:11.456+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.456+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:11.478+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.478+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:11.510+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.309 seconds
+[2022-10-14T17:53:13.889+0800] {processor.py:156} INFO - Started process (PID=260074) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:13.890+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:13.890+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:13.890+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:14.099+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:14.128+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:14.127+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:14.148+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:14.148+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:14.200+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.315 seconds
+[2022-10-14T17:53:16.462+0800] {processor.py:156} INFO - Started process (PID=260335) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:16.462+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:16.463+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.463+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:16.661+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:16.681+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.681+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:16.695+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.695+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:16.719+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.260 seconds
+[2022-10-14T17:53:18.662+0800] {processor.py:156} INFO - Started process (PID=260523) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:18.662+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:18.663+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.663+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:18.845+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:18.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.862+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:18.879+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.879+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:18.903+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.244 seconds
+[2022-10-14T17:53:21.420+0800] {processor.py:156} INFO - Started process (PID=260860) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:21.422+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:21.422+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.422+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:21.628+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:21.657+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.656+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:21.681+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.681+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:21.711+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.294 seconds
+[2022-10-14T17:53:23.925+0800] {processor.py:156} INFO - Started process (PID=261043) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:23.926+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:23.926+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:23.926+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:24.198+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:24.226+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:24.225+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:24.249+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:24.249+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:24.279+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.358 seconds
+[2022-10-14T17:53:26.475+0800] {processor.py:156} INFO - Started process (PID=261223) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:26.476+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:26.476+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.476+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:26.758+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:26.787+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.787+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:26.812+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.811+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:26.840+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.368 seconds
+[2022-10-14T17:53:29.170+0800] {processor.py:156} INFO - Started process (PID=261403) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:29.170+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:29.171+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.171+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:29.398+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:29.426+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.426+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:29.453+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.453+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:29.494+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.328 seconds
+[2022-10-14T17:53:31.775+0800] {processor.py:156} INFO - Started process (PID=261586) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:31.777+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:31.778+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:31.777+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:31.997+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:32.025+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:32.024+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:32.048+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:32.048+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:32.078+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.306 seconds
+[2022-10-14T17:53:34.206+0800] {processor.py:156} INFO - Started process (PID=261772) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:34.206+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:34.207+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.207+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:34.484+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:34.508+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.508+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:34.526+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.526+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:34.556+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.355 seconds
+[2022-10-14T17:53:37.040+0800] {processor.py:156} INFO - Started process (PID=261953) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:37.042+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:37.042+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.042+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:37.344+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:37.382+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.382+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:37.419+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.418+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:37.454+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.417 seconds
+[2022-10-14T17:53:39.861+0800] {processor.py:156} INFO - Started process (PID=262136) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:39.861+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:39.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:39.862+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:40.087+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:40.112+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:40.112+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:40.138+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:40.138+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:40.164+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.306 seconds
+[2022-10-14T17:53:42.203+0800] {processor.py:156} INFO - Started process (PID=262318) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:42.204+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:42.205+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.205+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:42.406+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:42.428+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.428+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:42.448+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.448+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:42.474+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.274 seconds
+[2022-10-14T17:53:44.566+0800] {processor.py:156} INFO - Started process (PID=262496) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:44.567+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:44.567+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.567+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:44.772+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:44.795+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.795+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:44.812+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.812+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:44.841+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.279 seconds
+[2022-10-14T17:53:46.972+0800] {processor.py:156} INFO - Started process (PID=262676) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:46.973+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:46.974+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:46.974+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:47.199+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:47.227+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:47.227+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:47.255+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:47.255+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:47.285+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.316 seconds
+[2022-10-14T17:53:49.405+0800] {processor.py:156} INFO - Started process (PID=262856) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:49.406+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:49.406+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.406+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:49.709+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:49.738+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.738+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:49.765+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.764+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:49.799+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.399 seconds
+[2022-10-14T17:53:51.975+0800] {processor.py:156} INFO - Started process (PID=263044) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:51.977+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:51.977+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:51.977+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:52.207+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:52.234+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:52.234+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:52.253+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:52.253+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:52.401+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.429 seconds
+[2022-10-14T17:53:56.474+0800] {processor.py:156} INFO - Started process (PID=263226) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:56.475+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:56.476+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.476+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:56.686+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:56.709+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.709+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:56.726+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.726+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:56.756+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.285 seconds
+[2022-10-14T17:53:58.878+0800] {processor.py:156} INFO - Started process (PID=263407) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:58.879+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:53:58.880+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:58.880+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:59.092+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:53:59.122+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:59.122+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:59.142+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:59.142+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:53:59.169+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.294 seconds
+[2022-10-14T17:54:01.398+0800] {processor.py:156} INFO - Started process (PID=263590) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:01.399+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:01.400+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.400+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:01.610+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:01.642+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.642+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:01.676+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.675+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:01.703+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.309 seconds
+[2022-10-14T17:54:03.874+0800] {processor.py:156} INFO - Started process (PID=263775) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:03.874+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:03.875+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:03.875+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:04.088+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:04.114+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:04.114+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:04.134+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:04.133+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:04.162+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.291 seconds
+[2022-10-14T17:54:06.356+0800] {processor.py:156} INFO - Started process (PID=263963) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:06.357+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:06.358+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.357+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:06.581+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:06.604+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.604+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:06.623+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.622+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:06.646+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.293 seconds
+[2022-10-14T17:54:08.913+0800] {processor.py:156} INFO - Started process (PID=264164) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:08.914+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:08.914+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:08.914+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:09.109+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:09.131+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:09.131+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:09.150+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:09.150+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:09.173+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.263 seconds
+[2022-10-14T17:54:10.986+0800] {processor.py:156} INFO - Started process (PID=264344) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:10.986+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:10.987+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:10.987+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:11.178+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:11.205+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:11.205+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:11.227+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:11.227+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:11.262+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.279 seconds
+[2022-10-14T17:54:13.146+0800] {processor.py:156} INFO - Started process (PID=264524) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:13.147+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:13.147+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.147+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:13.337+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:13.359+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.359+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:13.379+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.379+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:13.404+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.261 seconds
+[2022-10-14T17:54:15.218+0800] {processor.py:156} INFO - Started process (PID=264704) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:15.219+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:15.219+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.219+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:15.406+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:15.427+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.427+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:15.444+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.444+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:15.472+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.257 seconds
+[2022-10-14T17:54:17.768+0800] {processor.py:156} INFO - Started process (PID=264885) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:17.769+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:17.770+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:17.770+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:17.972+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:17.996+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:17.995+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:18.014+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:18.013+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:18.038+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.274 seconds
+[2022-10-14T17:54:20.214+0800] {processor.py:156} INFO - Started process (PID=265065) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:20.215+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:20.216+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.215+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:20.511+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:20.535+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.535+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:20.555+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.555+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:20.584+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.375 seconds
+[2022-10-14T17:54:22.881+0800] {processor.py:156} INFO - Started process (PID=265249) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:22.882+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:22.883+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:22.883+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:23.118+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:23.144+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:23.143+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:23.166+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:23.166+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:23.191+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.313 seconds
+[2022-10-14T17:54:25.107+0800] {processor.py:156} INFO - Started process (PID=265429) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:25.108+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:25.109+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.109+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:25.297+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:25.316+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.316+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:25.333+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.332+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:25.358+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.254 seconds
+[2022-10-14T17:54:27.133+0800] {processor.py:156} INFO - Started process (PID=265612) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:27.133+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:27.134+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.134+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:27.348+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:27.372+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.372+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:27.392+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.392+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:27.417+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.288 seconds
+[2022-10-14T17:54:29.085+0800] {processor.py:156} INFO - Started process (PID=265805) to work on /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:29.086+0800] {processor.py:758} INFO - Processing file /home/aurora/airflow/dags/download_stock_price.py for tasks to queue
+[2022-10-14T17:54:29.087+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.086+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:29.280+0800] {processor.py:768} INFO - DAG(s) dict_keys(['Download_Stock_Price']) retrieved from /home/aurora/airflow/dags/download_stock_price.py
+[2022-10-14T17:54:29.308+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.308+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:29.325+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.325+0800] {dag.py:3324} INFO - Setting next_dagrun for Download_Stock_Price to 2022-10-14T09:52:55.725734+00:00, run_after=2022-10-15T09:52:55.725734+00:00
+[2022-10-14T17:54:29.348+0800] {processor.py:178} INFO - Processing /home/aurora/airflow/dags/download_stock_price.py took 0.267 seconds

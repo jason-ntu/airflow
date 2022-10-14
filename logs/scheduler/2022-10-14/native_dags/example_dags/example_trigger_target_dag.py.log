@@ -975,3 +975,728 @@
 [2022-10-14T17:01:38.333+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:38.333+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T17:01:38.355+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:38.355+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2022-10-14T17:01:38.470+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.194 seconds
+[2022-10-14T17:02:18.365+0800] {processor.py:156} INFO - Started process (PID=234003) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:02:18.366+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:02:18.366+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:18.366+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:02:18.383+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:02:18.399+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:18.399+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:02:18.491+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:02:18.491+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:02:18.508+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.145 seconds
+[2022-10-14T17:48:07.019+0800] {processor.py:156} INFO - Started process (PID=244575) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:07.020+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:07.021+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.021+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:07.037+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:07.140+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.140+0800] {manager.py:507} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2022-10-14T17:48:07.155+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.155+0800] {manager.py:507} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2022-10-14T17:48:07.170+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.170+0800] {manager.py:507} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2022-10-14T17:48:07.171+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.170+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:07.181+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.181+0800] {dag.py:2594} INFO - Creating ORM DAG for example_trigger_target_dag
+[2022-10-14T17:48:07.192+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:07.192+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:07.214+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2022-10-14T17:48:11.058+0800] {processor.py:156} INFO - Started process (PID=244894) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:11.059+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:11.059+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:11.059+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:11.088+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:11.115+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:11.115+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:11.135+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:11.135+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:11.164+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.108 seconds
+[2022-10-14T17:48:13.031+0800] {processor.py:156} INFO - Started process (PID=245076) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:13.032+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:13.032+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:13.032+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:13.050+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:13.068+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:13.068+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:13.087+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:13.087+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:13.111+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.083 seconds
+[2022-10-14T17:48:14.943+0800] {processor.py:156} INFO - Started process (PID=245265) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:14.944+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:14.945+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:14.945+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:14.964+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:14.984+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:14.984+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:15.000+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:15.000+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:15.022+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2022-10-14T17:48:16.753+0800] {processor.py:156} INFO - Started process (PID=245563) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:16.753+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:16.754+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.754+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:16.775+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:16.795+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.795+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:16.813+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:16.813+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:16.834+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2022-10-14T17:48:18.674+0800] {processor.py:156} INFO - Started process (PID=245743) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:18.675+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:18.676+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.675+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:18.694+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:18.713+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.713+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:18.730+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:18.730+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:18.751+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2022-10-14T17:48:20.605+0800] {processor.py:156} INFO - Started process (PID=245928) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:20.606+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:20.607+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.607+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:20.625+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:20.642+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.642+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:20.658+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:20.658+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:20.679+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2022-10-14T17:48:22.519+0800] {processor.py:156} INFO - Started process (PID=246108) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:22.520+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:22.521+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.521+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:22.538+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:22.556+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.556+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:22.573+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:22.572+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:22.594+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2022-10-14T17:48:24.457+0800] {processor.py:156} INFO - Started process (PID=246293) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:24.458+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:24.458+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.458+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:24.475+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:24.494+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.494+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:24.510+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:24.510+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:24.534+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.080 seconds
+[2022-10-14T17:48:26.297+0800] {processor.py:156} INFO - Started process (PID=246479) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:26.297+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:26.298+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.298+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:26.315+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:26.334+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.334+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:26.350+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:26.350+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:26.371+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.078 seconds
+[2022-10-14T17:48:28.124+0800] {processor.py:156} INFO - Started process (PID=246659) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:28.124+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:28.125+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.125+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:28.142+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:28.161+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.161+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:28.178+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:28.178+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:28.199+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2022-10-14T17:48:30.024+0800] {processor.py:156} INFO - Started process (PID=246841) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:30.024+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:30.025+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:30.025+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:30.041+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:30.060+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:30.059+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:30.076+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:30.076+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:30.097+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.077 seconds
+[2022-10-14T17:48:32.033+0800] {processor.py:156} INFO - Started process (PID=247026) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:32.033+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:32.034+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:32.034+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:32.060+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:32.085+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:32.085+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:32.106+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:32.106+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:32.135+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.107 seconds
+[2022-10-14T17:48:34.371+0800] {processor.py:156} INFO - Started process (PID=247222) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:34.372+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:34.374+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.373+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:34.401+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:34.427+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.427+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:34.452+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:34.452+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:34.480+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds
+[2022-10-14T17:48:36.574+0800] {processor.py:156} INFO - Started process (PID=247470) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:36.575+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:36.575+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.575+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:36.592+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:36.612+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.612+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:36.628+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:36.628+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:36.653+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2022-10-14T17:48:38.497+0800] {processor.py:156} INFO - Started process (PID=247655) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:38.498+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:38.498+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.498+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:38.515+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:38.540+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.540+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:38.555+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:38.555+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:38.581+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.086 seconds
+[2022-10-14T17:48:40.603+0800] {processor.py:156} INFO - Started process (PID=247850) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:40.604+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:40.605+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.604+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:40.623+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:40.649+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.649+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:40.664+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:40.664+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:40.685+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2022-10-14T17:48:42.861+0800] {processor.py:156} INFO - Started process (PID=248056) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:42.861+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:42.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:42.862+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:42.879+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:42.905+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:42.905+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:42.922+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:42.922+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:42.943+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2022-10-14T17:48:45.247+0800] {processor.py:156} INFO - Started process (PID=248236) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:45.247+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:45.248+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:45.248+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:45.265+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:45.292+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:45.292+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:45.308+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:45.307+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:45.516+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.271 seconds
+[2022-10-14T17:48:50.924+0800] {processor.py:156} INFO - Started process (PID=248446) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:50.924+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:50.925+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.925+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:50.943+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:50.969+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.969+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:50.993+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:50.993+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:51.230+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.308 seconds
+[2022-10-14T17:48:57.406+0800] {processor.py:156} INFO - Started process (PID=248659) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:57.515+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:48:57.516+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:57.516+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:57.531+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:48:57.559+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:57.559+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:48:57.577+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:48:57.576+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:48:57.598+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.194 seconds
+[2022-10-14T17:49:02.779+0800] {processor.py:156} INFO - Started process (PID=248870) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:02.780+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:02.780+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.780+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:02.803+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:02.835+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.835+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:02.856+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:02.855+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:02.883+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.107 seconds
+[2022-10-14T17:49:05.117+0800] {processor.py:156} INFO - Started process (PID=249055) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:05.117+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:05.118+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:05.118+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:05.138+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:05.171+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:05.171+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:05.198+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:05.197+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:05.227+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds
+[2022-10-14T17:49:07.464+0800] {processor.py:156} INFO - Started process (PID=249240) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:07.464+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:07.465+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.465+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:07.488+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:07.521+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.520+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:07.539+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:07.539+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:07.565+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.104 seconds
+[2022-10-14T17:49:09.800+0800] {processor.py:156} INFO - Started process (PID=249420) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:09.801+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:09.801+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.801+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:09.819+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:09.846+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.846+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:09.861+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:09.861+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:09.883+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2022-10-14T17:49:12.074+0800] {processor.py:156} INFO - Started process (PID=249600) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:12.075+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:12.075+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:12.075+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:12.092+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:12.119+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:12.119+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:12.136+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:12.136+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:12.161+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2022-10-14T17:49:14.512+0800] {processor.py:156} INFO - Started process (PID=249780) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:14.513+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:14.513+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.513+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:14.536+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:14.565+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.565+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:14.582+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:14.582+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:14.603+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.094 seconds
+[2022-10-14T17:49:16.801+0800] {processor.py:156} INFO - Started process (PID=249965) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:16.802+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:16.802+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.802+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:16.824+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:16.855+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.855+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:16.874+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:16.874+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:16.899+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.100 seconds
+[2022-10-14T17:49:19.222+0800] {processor.py:156} INFO - Started process (PID=250148) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:19.223+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:19.224+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.223+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:19.248+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:19.284+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.284+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:19.311+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:19.311+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:19.343+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.126 seconds
+[2022-10-14T17:49:21.872+0800] {processor.py:156} INFO - Started process (PID=250332) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:21.872+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:21.873+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.873+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:21.890+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:21.915+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.915+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:21.930+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:21.930+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:22.123+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.254 seconds
+[2022-10-14T17:49:27.884+0800] {processor.py:156} INFO - Started process (PID=250524) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:27.885+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:49:27.886+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.886+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:27.907+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:49:27.938+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.938+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:49:27.956+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:49:27.956+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:49:28.182+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.301 seconds
+[2022-10-14T17:50:54.600+0800] {processor.py:156} INFO - Started process (PID=251512) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:54.602+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:50:54.603+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:54.603+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:54.642+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:54.692+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:54.692+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:54.717+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:54.717+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:50:54.755+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.159 seconds
+[2022-10-14T17:50:57.164+0800] {processor.py:156} INFO - Started process (PID=251736) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:57.165+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:50:57.166+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:57.166+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:57.186+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:57.217+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:57.217+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:57.239+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:57.239+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:50:57.264+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2022-10-14T17:50:59.353+0800] {processor.py:156} INFO - Started process (PID=252055) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:59.353+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:50:59.354+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.354+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:59.371+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:50:59.398+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.398+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:50:59.414+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:50:59.414+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:50:59.435+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2022-10-14T17:51:01.515+0800] {processor.py:156} INFO - Started process (PID=252250) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:01.516+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:01.516+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.516+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:01.536+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:01.568+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.568+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:01.585+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:01.585+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:01.609+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.097 seconds
+[2022-10-14T17:51:04.510+0800] {processor.py:156} INFO - Started process (PID=252571) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:04.511+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:04.511+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.511+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:04.532+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:04.559+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.559+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:04.574+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:04.574+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:04.595+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2022-10-14T17:51:07.084+0800] {processor.py:156} INFO - Started process (PID=252773) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:07.085+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:07.086+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:07.085+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:07.109+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:07.147+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:07.147+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:07.175+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:07.174+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:07.210+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.129 seconds
+[2022-10-14T17:51:09.943+0800] {processor.py:156} INFO - Started process (PID=252982) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:09.944+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:09.945+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:09.944+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:09.969+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:10.006+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:10.005+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:10.031+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:10.031+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:10.064+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.126 seconds
+[2022-10-14T17:51:13.071+0800] {processor.py:156} INFO - Started process (PID=253197) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:13.073+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:13.073+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:13.073+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:13.099+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:13.138+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:13.138+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:13.161+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:13.161+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:13.190+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.123 seconds
+[2022-10-14T17:51:18.450+0800] {processor.py:156} INFO - Started process (PID=253384) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:18.509+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:18.510+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.510+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:18.535+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:18.567+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.567+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:18.590+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:18.590+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:18.830+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.382 seconds
+[2022-10-14T17:51:21.856+0800] {processor.py:156} INFO - Started process (PID=253570) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:21.857+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:21.857+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:21.857+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:21.881+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:21.915+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:21.915+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:21.940+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:21.940+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:21.967+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.114 seconds
+[2022-10-14T17:51:24.881+0800] {processor.py:156} INFO - Started process (PID=253753) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:24.882+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:24.883+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:24.883+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:24.911+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:24.947+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:24.947+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:24.972+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:24.972+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:24.998+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.121 seconds
+[2022-10-14T17:51:27.682+0800] {processor.py:156} INFO - Started process (PID=253933) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:27.682+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:27.683+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.683+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:27.709+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:27.746+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.745+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:27.766+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:27.766+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:27.799+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.120 seconds
+[2022-10-14T17:51:30.530+0800] {processor.py:156} INFO - Started process (PID=254119) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:30.530+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:30.531+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.531+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:30.551+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:30.583+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.583+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:30.611+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:30.611+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:30.644+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2022-10-14T17:51:33.832+0800] {processor.py:156} INFO - Started process (PID=254321) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:33.834+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:33.835+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:33.834+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:33.858+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:33.894+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:33.894+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:33.914+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:33.914+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:33.940+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.112 seconds
+[2022-10-14T17:51:36.765+0800] {processor.py:156} INFO - Started process (PID=254502) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:36.766+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:36.766+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:36.766+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:36.796+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:36.836+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:36.835+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:36.859+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:36.859+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:36.890+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.129 seconds
+[2022-10-14T17:51:39.786+0800] {processor.py:156} INFO - Started process (PID=254688) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:39.787+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:39.788+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:39.787+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:39.810+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:39.852+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:39.851+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:39.874+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:39.874+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:39.910+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.128 seconds
+[2022-10-14T17:51:42.718+0800] {processor.py:156} INFO - Started process (PID=254873) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:42.719+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:42.719+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.719+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:42.742+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:42.776+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.776+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:42.794+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:42.794+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:42.817+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2022-10-14T17:51:45.888+0800] {processor.py:156} INFO - Started process (PID=255058) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:45.889+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:45.889+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:45.889+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:45.923+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:45.962+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:45.961+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:45.990+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:45.990+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:46.018+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.135 seconds
+[2022-10-14T17:51:49.128+0800] {processor.py:156} INFO - Started process (PID=255262) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:49.129+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:49.130+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:49.130+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:49.152+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:49.191+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:49.190+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:49.212+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:49.212+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:49.245+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.119 seconds
+[2022-10-14T17:51:51.724+0800] {processor.py:156} INFO - Started process (PID=255457) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:51.725+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:51.725+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.725+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:51.746+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:51.779+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.778+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:51.801+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:51.801+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:51.824+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.104 seconds
+[2022-10-14T17:51:54.952+0800] {processor.py:156} INFO - Started process (PID=255668) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:54.953+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:54.954+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:54.954+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:54.974+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:55.006+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:55.006+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:55.024+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:55.023+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:55.052+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.104 seconds
+[2022-10-14T17:51:57.619+0800] {processor.py:156} INFO - Started process (PID=255849) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:57.620+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:51:57.621+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.621+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:57.648+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:51:57.685+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.685+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:51:57.705+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:51:57.704+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:51:57.741+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.126 seconds
+[2022-10-14T17:52:00.480+0800] {processor.py:156} INFO - Started process (PID=256067) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:00.482+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:00.482+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.482+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:00.503+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:00.535+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.535+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:00.558+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:00.558+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:00.582+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.105 seconds
+[2022-10-14T17:52:03.036+0800] {processor.py:156} INFO - Started process (PID=256247) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:03.036+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:03.037+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:03.037+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:03.060+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:03.094+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:03.094+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:03.115+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:03.115+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:03.142+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.111 seconds
+[2022-10-14T17:52:07.724+0800] {processor.py:156} INFO - Started process (PID=256432) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:07.725+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:07.726+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.726+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:07.749+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:07.786+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.786+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:07.810+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:07.810+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:07.839+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.119 seconds
+[2022-10-14T17:52:10.813+0800] {processor.py:156} INFO - Started process (PID=256613) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:10.815+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:10.815+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.815+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:10.843+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:10.877+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.877+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:10.893+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:10.892+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:10.920+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.110 seconds
+[2022-10-14T17:52:13.432+0800] {processor.py:156} INFO - Started process (PID=256793) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:13.433+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:13.434+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.434+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:13.459+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:13.489+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.489+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:13.508+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:13.507+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:13.532+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2022-10-14T17:52:16.079+0800] {processor.py:156} INFO - Started process (PID=256973) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:16.081+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:16.081+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:16.081+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:16.106+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:16.142+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:16.141+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:16.161+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:16.161+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:16.189+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds
+[2022-10-14T17:52:18.675+0800] {processor.py:156} INFO - Started process (PID=257153) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:18.676+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:18.676+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.676+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:18.696+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:18.728+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.728+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:18.748+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:18.747+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:18.774+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2022-10-14T17:52:21.516+0800] {processor.py:156} INFO - Started process (PID=257333) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:21.517+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:21.517+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.517+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:21.539+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:21.567+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.567+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:21.586+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:21.586+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:21.614+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2022-10-14T17:52:24.272+0800] {processor.py:156} INFO - Started process (PID=257513) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:24.273+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:24.274+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.274+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:24.294+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:24.325+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.325+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:24.345+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:24.344+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:24.482+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.213 seconds
+[2022-10-14T17:52:28.008+0800] {processor.py:156} INFO - Started process (PID=257817) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:28.008+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:28.009+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:28.009+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:28.031+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:28.062+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:28.062+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:28.085+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:28.085+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:28.226+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.221 seconds
+[2022-10-14T17:52:33.532+0800] {processor.py:156} INFO - Started process (PID=258108) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:33.537+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:33.539+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.539+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:33.571+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:33.631+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.631+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:33.900+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:33.900+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:33.949+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.421 seconds
+[2022-10-14T17:52:39.527+0800] {processor.py:156} INFO - Started process (PID=258370) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:39.529+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:39.529+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.529+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:39.554+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:39.590+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.589+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:39.745+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:39.745+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:39.773+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.250 seconds
+[2022-10-14T17:52:43.761+0800] {processor.py:156} INFO - Started process (PID=258555) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:43.762+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:43.763+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:43.762+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:43.809+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:43.860+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:43.860+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:44.028+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:44.028+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:44.054+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.296 seconds
+[2022-10-14T17:52:47.852+0800] {processor.py:156} INFO - Started process (PID=258772) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:47.914+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:47.914+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:47.914+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:47.935+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:47.961+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:47.961+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:48.072+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:48.072+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:48.231+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.381 seconds
+[2022-10-14T17:52:55.801+0800] {processor.py:156} INFO - Started process (PID=259012) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:55.802+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:52:55.803+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:55.803+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:55.832+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:52:56.011+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:56.011+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:52:56.030+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:52:56.030+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:52:56.059+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.264 seconds
+[2022-10-14T17:53:02.913+0800] {processor.py:156} INFO - Started process (PID=259380) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:02.914+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:02.915+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:02.915+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:02.955+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:03.218+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:03.218+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:03.248+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:03.248+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:03.289+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.381 seconds
+[2022-10-14T17:53:09.913+0800] {processor.py:156} INFO - Started process (PID=259786) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:09.914+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:09.914+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:09.914+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:09.941+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:10.117+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:10.117+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:10.135+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:10.135+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:10.160+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.251 seconds
+[2022-10-14T17:53:11.344+0800] {processor.py:156} INFO - Started process (PID=259897) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:11.345+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:11.345+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.345+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:11.363+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:11.391+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.391+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:11.408+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:11.408+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:11.431+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2022-10-14T17:53:14.026+0800] {processor.py:156} INFO - Started process (PID=260082) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:14.027+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:14.027+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:14.027+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:14.047+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:14.071+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:14.071+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:14.088+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:14.088+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:14.116+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2022-10-14T17:53:16.575+0800] {processor.py:156} INFO - Started process (PID=260343) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:16.576+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:16.576+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.576+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:16.592+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:16.618+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.618+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:16.632+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:16.632+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:16.656+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2022-10-14T17:53:18.761+0800] {processor.py:156} INFO - Started process (PID=260531) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:18.762+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:18.762+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.762+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:18.777+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:18.796+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.796+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:18.816+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:18.816+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:18.849+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2022-10-14T17:53:21.542+0800] {processor.py:156} INFO - Started process (PID=260868) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:21.542+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:21.543+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.543+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:21.558+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:21.584+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.584+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:21.606+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:21.605+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:21.639+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.100 seconds
+[2022-10-14T17:53:24.189+0800] {processor.py:156} INFO - Started process (PID=261053) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:24.189+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:24.190+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:24.190+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:24.212+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:24.242+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:24.242+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:24.268+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:24.268+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:24.304+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.119 seconds
+[2022-10-14T17:53:26.643+0800] {processor.py:156} INFO - Started process (PID=261233) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:26.644+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:26.644+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.644+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:26.663+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:26.693+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.693+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:26.718+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:26.718+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:26.752+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.114 seconds
+[2022-10-14T17:53:29.314+0800] {processor.py:156} INFO - Started process (PID=261413) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:29.314+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:29.315+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.315+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:29.334+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:29.361+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.361+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:29.379+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:29.378+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:29.409+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.099 seconds
+[2022-10-14T17:53:31.923+0800] {processor.py:156} INFO - Started process (PID=261594) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:31.924+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:31.925+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:31.925+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:31.941+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:31.965+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:31.965+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:31.982+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:31.982+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:32.010+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.089 seconds
+[2022-10-14T17:53:34.364+0800] {processor.py:156} INFO - Started process (PID=261780) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:34.366+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:34.367+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.367+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:34.392+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:34.423+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.423+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:34.443+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:34.443+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:34.470+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.110 seconds
+[2022-10-14T17:53:37.234+0800] {processor.py:156} INFO - Started process (PID=261961) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:37.236+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:37.236+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.236+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:37.257+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:37.297+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.297+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:37.338+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:37.337+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:37.382+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.152 seconds
+[2022-10-14T17:53:40.088+0800] {processor.py:156} INFO - Started process (PID=262146) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:40.089+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:40.090+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:40.090+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:40.110+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:40.141+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:40.141+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:40.161+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:40.161+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:40.192+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.108 seconds
+[2022-10-14T17:53:42.506+0800] {processor.py:156} INFO - Started process (PID=262326) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:42.507+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:42.507+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.507+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:42.523+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:42.551+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.551+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:42.572+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:42.571+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:42.599+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2022-10-14T17:53:44.739+0800] {processor.py:156} INFO - Started process (PID=262506) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:44.740+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:44.741+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.740+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:44.757+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:44.782+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.782+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:44.801+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:44.801+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:44.826+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2022-10-14T17:53:47.112+0800] {processor.py:156} INFO - Started process (PID=262686) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:47.113+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:47.114+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:47.114+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:47.137+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:47.163+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:47.163+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:47.182+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:47.182+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:47.210+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2022-10-14T17:53:49.649+0800] {processor.py:156} INFO - Started process (PID=262866) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:49.650+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:49.651+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.651+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:49.674+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:49.706+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.706+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:49.732+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:49.731+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:49.761+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2022-10-14T17:53:52.441+0800] {processor.py:156} INFO - Started process (PID=263055) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:52.487+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:52.487+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:52.487+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:52.505+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:52.540+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:52.540+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:52.566+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:52.566+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:52.808+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.370 seconds
+[2022-10-14T17:53:56.653+0800] {processor.py:156} INFO - Started process (PID=263236) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:56.654+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:56.655+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.654+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:56.670+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:56.696+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.695+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:56.713+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:56.713+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:56.741+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.092 seconds
+[2022-10-14T17:53:59.017+0800] {processor.py:156} INFO - Started process (PID=263417) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:59.018+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:53:59.018+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:59.018+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:59.035+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:53:59.064+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:59.064+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:53:59.081+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:53:59.081+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:53:59.115+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2022-10-14T17:54:01.539+0800] {processor.py:156} INFO - Started process (PID=263600) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:01.539+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:01.540+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.540+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:01.555+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:01.580+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.580+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:01.606+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:01.606+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:01.640+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.105 seconds
+[2022-10-14T17:54:04.018+0800] {processor.py:156} INFO - Started process (PID=263785) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:04.020+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:04.020+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:04.020+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:04.037+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:04.060+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:04.060+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:04.079+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:04.079+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:04.109+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.095 seconds
+[2022-10-14T17:54:06.498+0800] {processor.py:156} INFO - Started process (PID=263973) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:06.499+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:06.500+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.499+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:06.517+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:06.542+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.542+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:06.564+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:06.564+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:06.590+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.096 seconds
+[2022-10-14T17:54:09.041+0800] {processor.py:156} INFO - Started process (PID=264174) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:09.042+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:09.043+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:09.043+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:09.058+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:09.082+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:09.082+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:09.099+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:09.099+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:09.122+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2022-10-14T17:54:11.129+0800] {processor.py:156} INFO - Started process (PID=264354) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:11.130+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:11.131+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:11.131+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:11.146+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:11.171+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:11.171+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:11.189+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:11.188+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:11.210+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.084 seconds
+[2022-10-14T17:54:13.299+0800] {processor.py:156} INFO - Started process (PID=264534) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:13.300+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:13.301+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.301+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:13.315+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:13.336+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.336+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:13.353+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:13.353+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:13.375+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2022-10-14T17:54:15.342+0800] {processor.py:156} INFO - Started process (PID=264714) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:15.343+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:15.343+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.343+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:15.358+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:15.381+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.381+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:15.396+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:15.396+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:15.421+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.081 seconds
+[2022-10-14T17:54:17.901+0800] {processor.py:156} INFO - Started process (PID=264895) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:17.902+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:17.903+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:17.903+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:17.918+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:17.942+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:17.942+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:17.958+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:17.958+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:17.984+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.086 seconds
+[2022-10-14T17:54:20.430+0800] {processor.py:156} INFO - Started process (PID=265075) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:20.431+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:20.432+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.432+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:20.452+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:20.482+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.482+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:20.508+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:20.508+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:20.539+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.114 seconds
+[2022-10-14T17:54:23.019+0800] {processor.py:156} INFO - Started process (PID=265257) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:23.020+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:23.021+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:23.021+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:23.042+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:23.075+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:23.075+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:23.100+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:23.100+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:23.129+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.115 seconds
+[2022-10-14T17:54:25.253+0800] {processor.py:156} INFO - Started process (PID=265439) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:25.253+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:25.254+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.254+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:25.269+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:25.293+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.293+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:25.309+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:25.309+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:25.331+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.081 seconds
+[2022-10-14T17:54:27.232+0800] {processor.py:156} INFO - Started process (PID=265620) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:27.233+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:27.233+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.233+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:27.246+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:27.272+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.271+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:27.296+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:27.296+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:27.326+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.097 seconds
+[2022-10-14T17:54:29.214+0800] {processor.py:156} INFO - Started process (PID=265821) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:29.215+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-10-14T17:54:29.216+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.216+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:29.232+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-10-14T17:54:29.252+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.252+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:54:29.268+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:54:29.268+0800] {dag.py:3324} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-10-14T17:54:29.298+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.088 seconds

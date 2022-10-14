@@ -681,3 +681,59 @@
 [2022-10-14T16:37:58.131+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:58.131+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:37:58.234+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:58.234+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
 [2022-10-14T16:37:58.257+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.170 seconds
+[2022-10-14T16:38:38.795+0800] {processor.py:156} INFO - Started process (PID=228919) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:38:38.797+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:38:38.799+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:38.799+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:38:38.836+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:38:38.903+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:38.902+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:38:39.093+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:39.093+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:38:39.129+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.337 seconds
+[2022-10-14T16:39:27.164+0800] {processor.py:156} INFO - Started process (PID=229042) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:39:27.165+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:39:27.165+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:27.165+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:39:27.197+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:39:27.339+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:27.339+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:39:27.366+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:27.366+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:39:27.395+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.234 seconds
+[2022-10-14T16:40:10.373+0800] {processor.py:156} INFO - Started process (PID=229220) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:10.374+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:40:10.374+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:10.374+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:10.394+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:10.507+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:10.507+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:40:10.526+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:10.526+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:40:10.551+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.180 seconds
+[2022-10-14T16:40:53.057+0800] {processor.py:156} INFO - Started process (PID=229292) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:53.058+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:40:53.058+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:53.058+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:53.076+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:40:53.171+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:53.171+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:40:53.183+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:53.183+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:40:53.201+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.146 seconds
+[2022-10-14T16:41:33.450+0800] {processor.py:156} INFO - Started process (PID=229363) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:41:33.451+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:41:33.452+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:33.452+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:41:33.472+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:41:33.493+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:33.493+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:41:33.509+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:33.509+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:41:33.531+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.084 seconds
+[2022-10-14T16:42:12.741+0800] {processor.py:156} INFO - Started process (PID=229466) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:12.742+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:42:12.743+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:12.743+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:12.766+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:12.789+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:12.789+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:42:12.805+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:12.805+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:42:12.912+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.173 seconds
+[2022-10-14T16:42:53.747+0800] {processor.py:156} INFO - Started process (PID=229574) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:53.748+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:42:53.749+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:53.749+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:53.770+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:42:53.791+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:53.791+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:42:53.912+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:53.912+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:42:53.937+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.193 seconds
+[2022-10-14T16:43:37.251+0800] {processor.py:156} INFO - Started process (PID=229691) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:43:37.252+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-10-14T16:43:37.254+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:37.253+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:43:37.295+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-10-14T16:43:37.344+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:37.344+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:43:37.505+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:37.505+0800] {dag.py:3324} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-10-13T00:00:00+00:00, run_after=2022-10-14T00:00:00+00:00
+[2022-10-14T16:43:37.528+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.280 seconds

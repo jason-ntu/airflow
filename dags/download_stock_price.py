@@ -56,8 +56,14 @@ default_args={
 os.environ["no_proxy"]="*"
 
 
-def download_price():
+def download_price(**context):
     stock_list = Variable.get("stock_list_json", deserialize_json=True)
+    # add this into config: {"stocks":["Meta"]}
+
+    stocks = context["dag_run"].conf.get("stocks")
+    print(stocks)
+    if stocks:
+        stock_list = stocks
 
     for ticker in stock_list:
         msft = yf.Ticker(ticker)
@@ -85,7 +91,8 @@ with DAG(
     
     download_task = PythonOperator(
         task_id = "download_prices",
-        python_callable = download_price
+        python_callable = download_price,
+        provide_context=True
     )
 
 # [END tutorial]

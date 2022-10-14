@@ -688,3 +688,59 @@
 [2022-10-14T16:37:46.276+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:46.275+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:37:46.288+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:46.288+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
 [2022-10-14T16:37:46.308+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.194 seconds
+[2022-10-14T16:38:25.564+0800] {processor.py:156} INFO - Started process (PID=228902) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:38:25.565+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:38:25.565+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:25.565+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:38:25.590+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:38:25.728+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:25.728+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:38:25.744+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:25.743+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:38:25.764+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.202 seconds
+[2022-10-14T16:39:13.614+0800] {processor.py:156} INFO - Started process (PID=229016) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:13.616+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:39:13.616+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:13.616+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:13.644+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:13.781+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:13.781+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:39:13.795+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:13.795+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:39:13.820+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.208 seconds
+[2022-10-14T16:39:55.623+0800] {processor.py:156} INFO - Started process (PID=229177) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:55.625+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:39:55.625+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:55.625+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:55.655+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:39:55.936+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:55.936+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:39:55.978+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:55.978+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:39:56.014+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.395 seconds
+[2022-10-14T16:40:39.892+0800] {processor.py:156} INFO - Started process (PID=229274) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:40:39.893+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:40:39.894+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:39.894+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:40:39.994+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:40:40.026+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:40.026+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:40:40.038+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:40.038+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:40:40.057+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.167 seconds
+[2022-10-14T16:41:20.760+0800] {processor.py:156} INFO - Started process (PID=229341) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:20.761+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:41:20.762+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:20.762+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:20.785+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:20.828+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:20.828+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:41:20.930+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:20.930+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:41:20.951+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.193 seconds
+[2022-10-14T16:41:58.619+0800] {processor.py:156} INFO - Started process (PID=229417) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:58.620+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:41:58.620+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:58.620+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:58.648+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:41:58.803+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:58.803+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:41:58.817+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:58.817+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:41:58.840+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.224 seconds
+[2022-10-14T16:42:39.395+0800] {processor.py:156} INFO - Started process (PID=229538) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:42:39.397+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:42:39.398+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:39.398+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:42:39.449+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:42:39.735+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:39.735+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:42:39.751+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:39.751+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:42:39.776+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.386 seconds
+[2022-10-14T16:43:23.137+0800] {processor.py:156} INFO - Started process (PID=229649) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:43:23.138+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2022-10-14T16:43:23.138+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:23.138+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:43:23.161+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2022-10-14T16:43:23.323+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:23.322+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:43:23.336+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:23.336+0800] {dag.py:3324} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2022-10-14T16:43:23.355+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.220 seconds

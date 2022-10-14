@@ -488,3 +488,43 @@
 [2022-10-14T16:37:41.226+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:41.226+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-10-14T16:37:41.229+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-10-14T16:37:41.235+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2022-10-14T16:38:21.555+0800] {processor.py:156} INFO - Started process (PID=228898) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:38:21.556+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:38:21.556+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:21.556+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:38:21.559+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:38:21.567+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2022-10-14T16:39:09.615+0800] {processor.py:156} INFO - Started process (PID=229005) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:09.615+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:39:09.616+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:09.616+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:09.620+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:09.629+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2022-10-14T16:39:50.445+0800] {processor.py:156} INFO - Started process (PID=229166) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:50.446+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:39:50.447+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:50.446+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:50.450+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:39:50.462+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds
+[2022-10-14T16:40:35.178+0800] {processor.py:156} INFO - Started process (PID=229267) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:40:35.180+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:40:35.180+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:35.180+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:40:35.184+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:40:35.193+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2022-10-14T16:41:16.944+0800] {processor.py:156} INFO - Started process (PID=229337) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:16.945+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:41:16.946+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:16.946+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:16.949+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:16.957+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2022-10-14T16:41:53.653+0800] {processor.py:156} INFO - Started process (PID=229405) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:53.654+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:41:53.654+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:53.654+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:53.657+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:41:53.665+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2022-10-14T16:42:34.153+0800] {processor.py:156} INFO - Started process (PID=229526) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:42:34.154+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:42:34.155+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:34.155+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:42:34.158+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:42:34.168+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2022-10-14T16:43:18.644+0800] {processor.py:156} INFO - Started process (PID=229636) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:43:18.646+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-10-14T16:43:18.646+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:18.646+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:43:18.649+0800] {processor.py:770} WARNING - No viable dags retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-10-14T16:43:18.657+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds

@@ -709,3 +709,59 @@
 [2022-10-14T16:37:30.538+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:30.538+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:37:30.552+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:37:30.551+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:37:30.551792+00:00, run_after=2022-10-14T08:37:30.551792+00:00
 [2022-10-14T16:37:30.666+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.162 seconds
+[2022-10-14T16:38:10.055+0800] {processor.py:156} INFO - Started process (PID=228868) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:10.056+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:38:10.057+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:10.057+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:10.072+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:10.094+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:10.094+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:38:10.110+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:10.110+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:38:10.110162+00:00, run_after=2022-10-14T08:38:10.110162+00:00
+[2022-10-14T16:38:10.217+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.164 seconds
+[2022-10-14T16:38:59.008+0800] {processor.py:156} INFO - Started process (PID=228963) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:59.009+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:38:59.011+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:59.010+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:59.038+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:38:59.080+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:59.080+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:38:59.263+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:38:59.262+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:38:59.262579+00:00, run_after=2022-10-14T08:38:59.262579+00:00
+[2022-10-14T16:38:59.297+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.293 seconds
+[2022-10-14T16:39:39.444+0800] {processor.py:156} INFO - Started process (PID=229110) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:39:39.445+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:39:39.446+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:39.446+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:39:39.462+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:39:39.483+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:39.483+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:39:39.591+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:39:39.591+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:39:39.591150+00:00, run_after=2022-10-14T08:39:39.591150+00:00
+[2022-10-14T16:39:39.614+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.172 seconds
+[2022-10-14T16:40:23.273+0800] {processor.py:156} INFO - Started process (PID=229251) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:40:23.274+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:40:23.275+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:23.275+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:40:23.291+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:40:23.432+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:23.432+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:40:23.450+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:40:23.449+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:40:23.449500+00:00, run_after=2022-10-14T08:40:23.449500+00:00
+[2022-10-14T16:40:23.475+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.204 seconds
+[2022-10-14T16:41:04.424+0800] {processor.py:156} INFO - Started process (PID=229309) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:04.425+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:41:04.426+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:04.426+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:04.441+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:04.556+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:04.556+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:41:04.571+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:04.571+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:41:04.571257+00:00, run_after=2022-10-14T08:41:04.571257+00:00
+[2022-10-14T16:41:04.596+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.176 seconds
+[2022-10-14T16:41:43.499+0800] {processor.py:156} INFO - Started process (PID=229375) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:43.500+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:41:43.501+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:43.500+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:43.514+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:41:43.536+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:43.536+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:41:43.552+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:41:43.552+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:41:43.552143+00:00, run_after=2022-10-14T08:41:43.552143+00:00
+[2022-10-14T16:41:43.578+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2022-10-14T16:42:23.490+0800] {processor.py:156} INFO - Started process (PID=229495) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:42:23.491+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:42:23.492+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:23.492+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:42:23.508+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:42:23.532+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:23.532+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:42:23.552+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:23.552+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:42:23.551691+00:00, run_after=2022-10-14T08:42:23.551691+00:00
+[2022-10-14T16:42:23.588+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.101 seconds
+[2022-10-14T16:43:05.735+0800] {processor.py:156} INFO - Started process (PID=229595) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:43:05.736+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-10-14T16:43:05.737+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:05.737+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:43:05.748+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-10-14T16:43:05.765+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:05.765+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:43:05.779+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:05.779+0800] {dag.py:3324} INFO - Setting next_dagrun for example_task_group to 2022-10-13T08:43:05.779113+00:00, run_after=2022-10-14T08:43:05.779113+00:00
+[2022-10-14T16:43:05.874+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.141 seconds

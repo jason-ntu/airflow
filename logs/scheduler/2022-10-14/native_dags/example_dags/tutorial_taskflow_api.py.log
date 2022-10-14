@@ -807,3 +807,171 @@
 [2022-10-14T16:42:59.259+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:59.259+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:42:59.350+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:42:59.350+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
 [2022-10-14T16:42:59.368+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.147 seconds
+[2022-10-14T16:43:42.343+0800] {processor.py:156} INFO - Started process (PID=229708) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:43:42.344+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:43:42.345+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:42.345+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:43:42.366+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:43:42.387+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:42.387+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:43:42.510+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:43:42.510+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:43:42.536+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.195 seconds
+[2022-10-14T16:44:24.678+0800] {processor.py:156} INFO - Started process (PID=229953) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:44:24.679+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:44:24.680+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:44:24.680+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:44:24.703+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:44:24.724+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:44:24.724+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:44:24.843+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:44:24.842+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:44:24.868+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.193 seconds
+[2022-10-14T16:45:07.177+0800] {processor.py:156} INFO - Started process (PID=230074) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:07.178+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:45:07.179+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:07.178+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:07.196+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:07.301+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:07.301+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:45:07.314+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:07.314+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:45:07.333+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.159 seconds
+[2022-10-14T16:45:45.670+0800] {processor.py:156} INFO - Started process (PID=230119) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:45.671+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:45:45.671+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:45.671+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:45.689+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:45:45.793+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:45.793+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:45:45.804+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:45:45.804+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:45:45.824+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.157 seconds
+[2022-10-14T16:46:24.022+0800] {processor.py:156} INFO - Started process (PID=230389) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:46:24.023+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:46:24.024+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:46:24.024+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:46:24.061+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:46:24.097+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:46:24.097+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:46:24.126+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:46:24.126+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:46:24.175+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.157 seconds
+[2022-10-14T16:47:01.991+0800] {processor.py:156} INFO - Started process (PID=230470) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:01.992+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:47:01.992+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:01.992+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:02.009+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:02.025+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:02.024+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:47:02.037+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:02.037+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:47:02.134+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.145 seconds
+[2022-10-14T16:47:40.191+0800] {processor.py:156} INFO - Started process (PID=230584) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:40.192+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:47:40.192+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:40.192+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:40.217+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:47:40.238+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:40.237+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:47:40.361+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:47:40.361+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:47:40.390+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.203 seconds
+[2022-10-14T16:48:20.501+0800] {processor.py:156} INFO - Started process (PID=230717) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:20.502+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:48:20.502+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:20.502+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:20.521+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:20.539+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:20.539+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:48:20.629+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:20.629+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:48:20.647+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.148 seconds
+[2022-10-14T16:48:57.769+0800] {processor.py:156} INFO - Started process (PID=230891) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:57.770+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:48:57.770+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:57.770+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:57.790+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:48:57.809+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:57.809+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:48:57.907+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:48:57.907+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:48:57.924+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.158 seconds
+[2022-10-14T16:49:37.592+0800] {processor.py:156} INFO - Started process (PID=231153) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:49:37.593+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:49:37.593+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:49:37.593+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:49:37.609+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:49:37.703+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:49:37.703+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:49:37.714+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:49:37.714+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:49:37.733+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.143 seconds
+[2022-10-14T16:50:17.813+0800] {processor.py:156} INFO - Started process (PID=231264) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:17.815+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:50:17.815+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:17.815+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:17.843+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:17.978+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:17.978+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:50:17.989+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:17.989+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:50:18.008+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.197 seconds
+[2022-10-14T16:50:58.180+0800] {processor.py:156} INFO - Started process (PID=231342) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:58.180+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:50:58.181+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:58.181+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:58.197+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:50:58.292+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:58.292+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:50:58.303+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:50:58.303+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:50:58.321+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.144 seconds
+[2022-10-14T16:51:45.790+0800] {processor.py:156} INFO - Started process (PID=231626) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:51:45.791+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:51:45.792+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:51:45.792+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:51:45.814+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:51:45.836+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:51:45.836+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:51:45.852+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:51:45.852+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:51:45.879+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.091 seconds
+[2022-10-14T16:52:24.610+0800] {processor.py:156} INFO - Started process (PID=232007) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:52:24.611+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:52:24.612+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:52:24.612+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:52:24.628+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:52:24.644+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:52:24.644+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:52:24.658+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:52:24.658+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:52:24.757+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.148 seconds
+[2022-10-14T16:53:02.549+0800] {processor.py:156} INFO - Started process (PID=232078) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:02.550+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:53:02.551+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:02.551+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:02.572+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:02.597+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:02.597+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:53:02.696+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:02.696+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:53:02.716+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.169 seconds
+[2022-10-14T16:53:43.962+0800] {processor.py:156} INFO - Started process (PID=232142) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:43.963+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:53:43.964+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:43.964+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:43.985+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:53:44.010+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:44.009+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:53:44.132+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:53:44.132+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:53:44.151+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.191 seconds
+[2022-10-14T16:54:24.233+0800] {processor.py:156} INFO - Started process (PID=232215) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:54:24.234+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:54:24.234+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:54:24.234+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:54:24.256+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:54:24.374+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:54:24.374+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:54:24.388+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:54:24.388+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:54:24.407+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.177 seconds
+[2022-10-14T16:55:03.303+0800] {processor.py:156} INFO - Started process (PID=232381) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:03.304+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:55:03.305+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:03.305+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:03.321+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:03.418+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:03.418+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:55:03.429+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:03.429+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:55:03.447+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.145 seconds
+[2022-10-14T16:55:43.685+0800] {processor.py:156} INFO - Started process (PID=232481) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:43.686+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:55:43.687+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:43.686+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:43.703+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:55:43.800+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:43.800+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:55:43.811+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:55:43.811+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:55:43.829+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.146 seconds
+[2022-10-14T16:56:22.266+0800] {processor.py:156} INFO - Started process (PID=232600) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:56:22.266+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:56:22.267+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:56:22.267+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:56:22.414+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:56:22.431+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:56:22.430+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:56:22.445+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:56:22.445+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:56:22.465+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.203 seconds
+[2022-10-14T16:57:00.217+0800] {processor.py:156} INFO - Started process (PID=232664) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:00.218+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:57:00.219+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:00.219+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:00.242+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:00.262+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:00.262+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:57:00.279+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:00.279+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:57:00.398+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.183 seconds
+[2022-10-14T16:57:39.076+0800] {processor.py:156} INFO - Started process (PID=232747) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:39.077+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:57:39.077+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:39.077+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:39.093+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:57:39.111+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:39.111+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:57:39.203+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:57:39.203+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:57:39.222+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.148 seconds
+[2022-10-14T16:58:20.689+0800] {processor.py:156} INFO - Started process (PID=232868) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:20.710+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:58:20.711+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:20.711+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:20.730+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:20.747+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:20.747+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:58:20.840+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:20.840+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:58:21.075+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.388 seconds
+[2022-10-14T16:58:59.832+0800] {processor.py:156} INFO - Started process (PID=232969) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:59.833+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2022-10-14T16:58:59.833+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:59.833+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:59.851+0800] {processor.py:768} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2022-10-14T16:58:59.981+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:59.981+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T16:58:59.997+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:58:59.997+0800] {dag.py:3324} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2022-10-14T16:59:00.019+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.190 seconds

@@ -58,7 +58,6 @@ os.environ["no_proxy"]="*"
 
 def download_price(**context):
     stock_list = Variable.get("stock_list_json", deserialize_json=True)
-    # add this into config: {"stocks":["Meta"]}
 
     stocks = context["dag_run"].conf.get("stocks")
     print(stocks)

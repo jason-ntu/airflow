@@ -905,3 +905,10 @@
 [2022-10-14T16:59:35.862+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:35.862+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:59:35.952+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:35.952+0800] {dag.py:3324} INFO - Setting next_dagrun for latest_only_with_trigger to 2022-10-14T04:59:35.952554+00:00, run_after=2022-10-14T08:59:35.952554+00:00
 [2022-10-14T16:59:35.970+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.139 seconds
+[2022-10-14T17:01:34.669+0800] {processor.py:156} INFO - Started process (PID=233699) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-10-14T17:01:34.670+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2022-10-14T17:01:34.671+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:34.671+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-10-14T17:01:34.681+0800] {processor.py:768} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2022-10-14T17:01:34.697+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:34.697+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:01:34.711+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:34.711+0800] {dag.py:3324} INFO - Setting next_dagrun for latest_only_with_trigger to 2022-10-14T05:01:34.711353+00:00, run_after=2022-10-14T09:01:34.711353+00:00
+[2022-10-14T17:01:34.729+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.062 seconds

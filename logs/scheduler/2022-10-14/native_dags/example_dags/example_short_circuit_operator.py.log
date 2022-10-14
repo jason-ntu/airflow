@@ -954,3 +954,10 @@
 [2022-10-14T16:59:44.184+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:44.184+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-14T16:59:44.197+0800] {logging_mixin.py:117} INFO - [2022-10-14T16:59:44.196+0800] {dag.py:3324} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-10-13T08:59:44.196758+00:00, run_after=2022-10-14T08:59:44.196758+00:00
 [2022-10-14T16:59:44.214+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.158 seconds
+[2022-10-14T17:01:40.317+0800] {processor.py:156} INFO - Started process (PID=233770) to work on /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-10-14T17:01:40.318+0800] {processor.py:758} INFO - Processing file /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-10-14T17:01:40.318+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:40.318+0800] {dagbag.py:525} INFO - Filling up the DagBag from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-10-14T17:01:40.331+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-10-14T17:01:40.349+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:40.349+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-14T17:01:40.363+0800] {logging_mixin.py:117} INFO - [2022-10-14T17:01:40.363+0800] {dag.py:3324} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-10-13T09:01:40.363297+00:00, run_after=2022-10-14T09:01:40.363297+00:00
+[2022-10-14T17:01:40.382+0800] {processor.py:178} INFO - Processing /home/aurora/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.067 seconds

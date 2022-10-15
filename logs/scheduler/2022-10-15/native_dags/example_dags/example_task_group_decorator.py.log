@@ -23,3 +23,31 @@
 [2022-10-15T23:15:08.643+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:15:08.643+0800] {dag.py:2573} INFO - Sync 1 DAGs
 [2022-10-15T23:15:08.678+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:15:08.677+0800] {dag.py:3328} INFO - Setting next_dagrun for example_task_group_decorator to 2022-10-14T15:15:08.677483+00:00, run_after=2022-10-15T15:15:08.677483+00:00
 [2022-10-15T23:15:08.706+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.161 seconds
+[2022-10-15T23:20:28.455+0800] {processor.py:156} INFO - Started process (PID=60015) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:20:28.458+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-10-15T23:20:28.460+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:20:28.459+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:20:28.510+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:20:28.567+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:20:28.567+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-15T23:20:28.599+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:20:28.598+0800] {dag.py:3328} INFO - Setting next_dagrun for example_task_group_decorator to 2022-10-14T15:20:28.598227+00:00, run_after=2022-10-15T15:20:28.598227+00:00
+[2022-10-15T23:20:28.628+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.178 seconds
+[2022-10-15T23:21:11.920+0800] {processor.py:156} INFO - Started process (PID=60145) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:11.922+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-10-15T23:21:11.924+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:11.923+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:11.976+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:12.036+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:12.036+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-15T23:21:12.069+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:12.068+0800] {dag.py:3328} INFO - Setting next_dagrun for example_task_group_decorator to 2022-10-14T15:21:12.068431+00:00, run_after=2022-10-15T15:21:12.068431+00:00
+[2022-10-15T23:21:12.099+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.185 seconds
+[2022-10-15T23:21:52.961+0800] {processor.py:156} INFO - Started process (PID=60471) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:52.963+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-10-15T23:21:52.965+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:52.964+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:53.021+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:21:53.081+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:53.080+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-15T23:21:53.112+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:21:53.112+0800] {dag.py:3328} INFO - Setting next_dagrun for example_task_group_decorator to 2022-10-14T15:21:53.111743+00:00, run_after=2022-10-15T15:21:53.111743+00:00
+[2022-10-15T23:21:53.142+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.186 seconds
+[2022-10-15T23:22:34.385+0800] {processor.py:156} INFO - Started process (PID=60550) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:22:34.388+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2022-10-15T23:22:34.389+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:22:34.389+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:22:34.449+0800] {processor.py:768} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2022-10-15T23:22:34.516+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:22:34.515+0800] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-15T23:22:34.551+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:22:34.551+0800] {dag.py:3328} INFO - Setting next_dagrun for example_task_group_decorator to 2022-10-14T15:22:34.550621+00:00, run_after=2022-10-15T15:22:34.550621+00:00
+[2022-10-15T23:22:34.583+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.205 seconds

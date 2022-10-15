@@ -40,6 +40,7 @@ from airflow.operators.python import PythonOperator
 
 # [END import_module]
 
+os.environ["no_proxy"] = "*"
 
 def get_tickers(context):
     stock_list = Variable.get("stock_list_json", deserialize_json=True)
@@ -89,6 +90,7 @@ def save_to_mysql_stage(*args, **context):
     mycursor = mydb.cursor()
     for ticker in tickers:
         val = load_price_data(ticker)
+        print("val: ", val)
         print(f"{ticker} length={len(val)}   {val[1]}")
 
         sql = """INSERT INTO stock_prices_stage

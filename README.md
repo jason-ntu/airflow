@@ -26,4 +26,4 @@
 - run mysql on docker:
   - `docker run --name local_mysql -e MYSQL_ROOT_PASSWORD=airflow -p 3306:3306 -d mysql:5.7`
 
-- [ImportError: No module named 'MySQL'](https://stackoverflow.com/questions/32877671/importerror-no-module-named-mysql)
+- [How can I add new "Conn Types" to Airflow 2.0?](https://stackoverflow.com/questions/65890511/how-can-i-add-new-conn-types-to-airflow-2-0)

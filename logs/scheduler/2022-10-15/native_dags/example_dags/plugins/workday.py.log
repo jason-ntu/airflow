@@ -33,3 +33,33 @@
 [2022-10-15T23:22:15.529+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:22:15.529+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
 [2022-10-15T23:22:15.534+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
 [2022-10-15T23:22:15.551+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2022-10-15T23:27:06.003+0800] {processor.py:156} INFO - Started process (PID=60957) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:06.007+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:27:06.008+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:27:06.008+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:06.011+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:06.029+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2022-10-15T23:27:50.546+0800] {processor.py:156} INFO - Started process (PID=61042) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:50.547+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:27:50.549+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:27:50.549+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:50.555+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:27:50.570+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2022-10-15T23:28:25.457+0800] {processor.py:156} INFO - Started process (PID=61107) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:28:25.461+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:28:25.463+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:28:25.463+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:28:25.468+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:28:25.493+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2022-10-15T23:29:23.587+0800] {processor.py:156} INFO - Started process (PID=61247) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:23.589+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:29:23.591+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:29:23.590+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:23.596+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:23.613+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-10-15T23:29:55.842+0800] {processor.py:156} INFO - Started process (PID=61297) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:55.847+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:29:55.849+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:29:55.849+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:55.855+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:29:55.873+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-10-15T23:30:32.330+0800] {processor.py:156} INFO - Started process (PID=61455) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:30:32.334+0800] {processor.py:758} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-10-15T23:30:32.335+0800] {logging_mixin.py:117} INFO - [2022-10-15T23:30:32.335+0800] {dagbag.py:525} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:30:32.340+0800] {processor.py:770} WARNING - No viable dags retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2022-10-15T23:30:32.358+0800] {processor.py:178} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds

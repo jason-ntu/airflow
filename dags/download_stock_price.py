@@ -58,15 +58,21 @@ def get_tickers(context):
 
 def download_price(*args, **context):
     stock_list = get_tickers(context)
-
+    valid_tickers = []
     for ticker in stock_list:
         dat = yf.Ticker(ticker)
         hist = dat.history(period="1mo")
+
+        if hist.shape[0]>0:
+            valid_tickers.append(ticker)
+        else:
+            continue
+
         print(hist.shape[0])
         with open(get_file_path(ticker), 'w') as writer:
             hist.to_csv(writer, index=True)
         print(f"Downloaded {ticker}")
-
+    return valid_tickers
 
 def get_file_path(ticker):
     # NOT SAVE in distributed system.
@@ -80,14 +86,21 @@ def load_price_data(ticker):
 
 
 def save_to_mysql_stage(*args, **context):
-    tickers = get_tickers(context)
+    # tickers = get_tickers(context)
+    # Pulls the return_value XCOM from "pushing_task"
+    # 'ti' for 'task instances'
+    tickers = context['ti'].xcom_pull(task_ids='download_prices')
+    print(f"received tickers: {tickers}")
+
+    from airflow.hooks.base_hook import BaseHook
+    conn = BaseHook.get_connection('demodb')
 
     mydb = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='mysql',
-        database='demodb',
-        port=3306
+        host=conn.host,
+        user=conn.login,
+        password=conn.password,
+        database=conn.schema,
+        port=conn.port
     )
 
     mycursor = mydb.cursor()

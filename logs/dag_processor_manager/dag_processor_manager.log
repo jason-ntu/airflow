@@ -1,0 +1,61 @@
+[2022-10-15T23:12:54.037+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-15T23:12:54.038+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-15T23:12:54.038+0800] {manager.py:486} INFO - Checking for new files in /Users/jason/airflow/dags every 300 seconds
+[2022-10-15T23:12:54.039+0800] {manager.py:724} INFO - Searching for files in /Users/jason/airflow/dags
+[2022-10-15T23:12:54.080+0800] {manager.py:727} INFO - There are 36 files in /Users/jason/airflow/dags
+[2022-10-15T23:13:20.580+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-15T23:13:51.084+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-15T23:13:51.084+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-15T23:13:51.085+0800] {manager.py:486} INFO - Checking for new files in /Users/jason/airflow/dags every 300 seconds
+[2022-10-15T23:13:51.085+0800] {manager.py:724} INFO - Searching for files in /Users/jason/airflow/dags
+[2022-10-15T23:13:51.112+0800] {manager.py:727} INFO - There are 36 files in /Users/jason/airflow/dags
+[2022-10-15T23:14:16.964+0800] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_datasets.py                                                  0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.11s           2022-10-15T15:13:52
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.11s           2022-10-15T15:13:51
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.41s           2022-10-15T15:14:05
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.31s           2022-10-15T15:14:14
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                  1           0  0.21s           2022-10-15T15:13:53
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.21s           2022-10-15T15:14:11
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                             1           0  0.21s           2022-10-15T15:13:55
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.32s           2022-10-15T15:14:06
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.22s           2022-10-15T15:13:57
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.21s           2022-10-15T15:14:09
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.31s           2022-10-15T15:14:15
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.21s           2022-10-15T15:14:03
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.21s           2022-10-15T15:14:00
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.21s           2022-10-15T15:14:10
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                   1           0  0.31s           2022-10-15T15:14:12
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/tutorial_dag.py                                                      1           0  0.21s           2022-10-15T15:13:56
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.21s           2022-10-15T15:14:01
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.32s           2022-10-15T15:14:16
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.21s           2022-10-15T15:14:02
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.31s           2022-10-15T15:13:59
+/opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.21s           2022-10-15T15:14:07
+================================================================================
+[2022-10-15T23:14:19.163+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-10-15T23:14:54.492+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2022-10-15T23:14:54.493+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-10-15T23:14:54.493+0800] {manager.py:486} INFO - Checking for new files in /Users/jason/airflow/dags every 300 seconds
+[2022-10-15T23:14:54.494+0800] {manager.py:724} INFO - Searching for files in /Users/jason/airflow/dags
+[2022-10-15T23:14:54.511+0800] {manager.py:727} INFO - There are 36 files in /Users/jason/airflow/dags
+[2022-10-15T23:15:16.226+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

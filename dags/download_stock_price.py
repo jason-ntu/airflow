@@ -37,6 +37,9 @@ from airflow import DAG
 
 # Operators; we need this to operate!
 from airflow.operators.python import PythonOperator
+from airflow.operators.email_operator import EmailOperator
+from airflow.providers.mysql.operators.mysql import MySqlOperator
+
 
 # [END import_module]
 
@@ -131,6 +134,15 @@ with DAG(
     save_to_mysql_task = PythonOperator(
         task_id='save_to_database',
         python_callable=save_to_mysql_stage,
+        provide_context=True
     )
+
+    mysql_task = MySqlOperator (
+        task_id='merge_stock_price',
+        mysql_conn_id='demodb',
+        sql='merge_stock_price.sql',
+        dag=dag,
+    )
+    download_task >> save_to_mysql_task >> mysql_task
 
 # [END tutorial]
